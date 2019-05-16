@@ -1,8 +1,8 @@
 # Meesterproef 2019
 
-In de meesterproef ga je toepassen wat je in de Minor Webdev hebt geleerd. 
+In de Meesterproef ga je toepassen wat je in de Minor Webdev hebt geleerd. 
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever. 
-Je gaat leren hoe je je geleerde kennis en skils kan gebruiken om een oplossing voor een probleem moet verzinnen en maken.
+Je gaat leren hoe je je geleerde kennis en skils kan gebruiken om een oplossing voor een echt probleem kan verzinnen en maken.
 
 Er worden verschillende projecten aangeboden waar je 5 weken aan gaat werken.
 
