@@ -12,9 +12,14 @@ Coaches: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert, Janno Kapritsias en
 
 Voor de Meesterproef geef je met een eerste en tweede keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
 
-In de eerste week krijg je een briefing bij de opdrachtgever en schrijf je een debriefing. Dat is de opdracht in eigen woorden beschreven. Daarna ga je iedere week een proof-of-concept bespreken bij je opdrachtgever. In week 5 komt er een expositie van je werk, daarvoor moet je ook een passende presentatie maken.
+In de eerste week krijg je een briefing bij de opdrachtgever en schrijf je een debriefing. 
+Dat is de opdracht en de doelstellingen in eigen woorden beschreven. 
+Daarna ga je iedere week een proof-of-concept bespreken met je opdrachtgever. 
+In week 5 presenteer je het eindresultaat tijdens een expositie. 
+Hiervoor moet je ook een passende presentatie maken.
 
-Elke week zijn er 2 coachingsmomenten gepland. Op vrijdag ga je naar de opdrachtgever om je vorderingen te bespreken.
+Elke week zijn er 2 coachingsmomenten gepland. 
+Op vrijdag ga je naar de opdrachtgever om je vorderingen te bespreken.
 
 - Maandag/Dinsdag - Debriefing met een van de coaches.
 - Woensdag/Donderdag - Code review met een van de coaches.
