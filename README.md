@@ -12,7 +12,7 @@ Coaches: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert, Janno Kapritsias en
 
 Voor de Meesterproef geef je met een eerste en tweede keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
 
-In de eerste week krijg je een briefing bij de opdrachtgever en moet je een 'design brief’ maken. Net zoals in het afstudeerproject. Daarna ga je iedere week een proof-of-concept bespreken bij je opdrachtgever. In week 5 komt er een expositie van je werk, daarvoor moet je ook een passende presentatie maken.
+In de eerste week krijg je een briefing bij de opdrachtgever en schrijf je een debriefing. Dat is de opdracht in eigen woorden beschreven. Daarna ga je iedere week een proof-of-concept bespreken bij je opdrachtgever. In week 5 komt er een expositie van je werk, daarvoor moet je ook een passende presentatie maken.
 
 Elke week zijn er 2 coachingsmomenten gepland. Op vrijdag ga je naar de opdrachtgever om je vorderingen te bespreken.
 
@@ -36,7 +36,7 @@ Het eindproject wordt beoordeeld op een Design rationale, een Product biografie 
 Én of de klant blij is met het gemaakte project.
 
 ### Design rationale
-In de Design rationale beschrijf je de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code. 
+In de Design rationale schrijf je de debriefing, de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code. 
 De Design rationale is een verantwoording van je ontwerp.
 
 ### Product biografie
@@ -56,7 +56,8 @@ Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten en/of 
 Voor de klant maak je een (werkend) prototype, een werkend interactief ding, voor verschillende apparaten, met echte data, api en een goede UX. 
 Jeweettoch. 
 Een blije klant is een goede klant. 
-Soms ontkom je er niet aan dat je een beetje eigenwijs niet doet wat de klant denkt dat goed is. 
+Soms ontkom je er niet aan dat je een beetje eigenwijs moet doen. 
+Dan doe je juist niet wat de klant wil en probeer je de opdrachtgever te overtuigen met een proof-of-concept. 
 En soms kan het voorkomen dat het proces niet helemaal soepel loopt. 
 Dat hoort erbij en daar leer je van.
 Aan het eind van het project vragen we de klant feedback op het geleverde werk... 
