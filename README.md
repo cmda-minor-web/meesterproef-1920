@@ -4,7 +4,7 @@ In de Meesterproef ga je toepassen wat je in de Minor Webdev hebt geleerd.
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever. 
 Je gaat leren hoe je je geleerde kennis en skils kan gebruiken om een oplossing voor een echt probleem te ontwerpen en maken.
 
-Je kan kiezen uit verschillende projecten die worden aangeboden. Hier ga je 5 weken aan werken.
+Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken.
 
 Coaches: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert, Janno Kapritsias en Koop Reynders.
 
