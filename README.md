@@ -12,18 +12,18 @@ In de eerste week krijg je een briefing bij de opdrachtgever en moet je een 'des
 
 Elke week zijn 3 coachingsmomenten gepland. Op vrijdag ga je naar de opdrachtgever om de vorderingen te bespreken.
 
-Maandag/Dinsdag - Debriefing met een van de coaches.
-Woensdag/Donderdag - Code review met een van de coaches.
-Vrijdag - Bespreking met de opdrachtgever.
+- Maandag/Dinsdag - Debriefing met een van de coaches.
+- Woensdag/Donderdag - Code review met een van de coaches.
+- Vrijdag - Bespreking met de opdrachtgever.
 
 
 ## Criteria en beoordeling
 
 Met de Meesterproef laat je zien wat je hebt geleerd tijdens de minor. Studenten die de vakken hebben gehaald kunnen aan de Meesterproef beginnen.
 
-De Meesterproef bestaat uit 3 projectweken en een eindproject van 5 weken. De 3 projectweken, PW1, PW2 en PW3 tellen mee als AVV.
+De Meesterproef bestaat uit de 3 projectweken en een eindproject van 5 weken. De 3 projectweken, [PW1](https://github.com/cmda-minor-web/project-1-1819), [PW2](https://github.com/cmda-minor-web/project-2-1819) en [PW3](https://github.com/cmda-minor-web/project-3-1819) tellen mee als AVV.
 
-Het project wordt beoordeeld op een Design rationale, een Product biografie en een reflectie op het eigen niveau. En of de klant blij is met het gemaakte project.
+Het eindproject wordt beoordeeld op een Design rationale, een Product biografie en een reflectie op het eigen niveau. Én of de klant blij is met het gemaakte project.
 
 ### Design rationale
 Verantwoording van het ontwerp... In de Design rationale beschrijf je de probleem definitie, de oplossing en de code.
@@ -32,7 +32,7 @@ Verantwoording van het ontwerp... In de Design rationale beschrijf je de problee
 Doorlopen van een iteratief proces... In de Product biografie schrijf je over het proces, de werkwijze, design brief, planning, schetsen en inspiratie.
 
 ### Reflectie op eigen niveau
-Aan de hand van de relevante vakrubrics...
+Aan de hand van de relevante vakrubrics reflecteer je systematisch op je werk. In een aantal gesprekken met een coach _reviewen_ we de code van het project waar je aan werkt. Dit doen we op basis van de rubrics van de verschillende vakken. zo krijg je een goed beeld van je eigen niveau, aandachtspunten en/of aspecten van het design & develop proces waar je je nog op kan verbeteren.
 
 ### Een blije klant
 De klant geeft feedback op het geleverde werk... Voor de klant maak je een (werkend) prototype, een werkend interactief ding, voor verschillende apparaten, met echte data, api, UX.
