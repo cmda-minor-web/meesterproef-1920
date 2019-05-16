@@ -58,7 +58,7 @@ Dit doen we op basis van de rubrics van de verschillende vakken.
 Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten en/of aspecten van het design-proces waar je je nog op kan verbeteren.
 
 ### Een blije klant
-Voor de klant maak je een (werkend) prototype, een werkend interactief ding, voor verschillende apparaten, met echte data, api en een goede UX. 
+Voor de klant maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX. 
 Jeweettoch. 
 Een blije klant is een goede klant. 
 Soms ontkom je er niet aan dat je een beetje eigenwijs moet doen. 
