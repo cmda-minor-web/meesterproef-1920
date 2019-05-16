@@ -1,8 +1,10 @@
 # Meesterproef 2019
 
-In de meesterproef ga je toepassen wat je in de vakken allemaal hebt geleerd in een realistische setting met een opdrachtgever.
+In de meesterproef ga je toepassen wat je in de Minor Webdev hebt geleerd. 
+Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever. 
+Je gaat leren hoe je je geleerde kennis en skils kan gebruiken om een oplossing voor een probleem moet verzinnen en maken.
 
-Er worden een aantal projecten aangeboden waar studenten in 5 weken een oplossing voor een probleem moet verzinnen en maken.
+Er worden verschillende projecten aangeboden waar je 5 weken aan gaat werken.
 
 Coaches: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert, Janno Kapritsias en Koop Reynders.
 
@@ -10,7 +12,7 @@ Coaches: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert, Janno Kapritsias en
 
 In de eerste week krijg je een briefing bij de opdrachtgever en moet je een 'design brief’ maken. Net zoals in het afstudeerproject. Daarna ga je iedere week een proof-of-concept bespreken bij je opdrachtgever. In week 5 komt er een expositie van je werk, daarvoor moet je ook een passende presentatie maken.
 
-Elke week zijn 3 coachingsmomenten gepland. Op vrijdag ga je naar de opdrachtgever om de vorderingen te bespreken.
+Elke week zijn er 2 coachingsmomenten gepland. Op vrijdag ga je naar de opdrachtgever om je vorderingen te bespreken.
 
 - Maandag/Dinsdag - Debriefing met een van de coaches.
 - Woensdag/Donderdag - Code review met een van de coaches.
