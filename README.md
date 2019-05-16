@@ -26,7 +26,7 @@ Elke week zijn er 2 coachingsmomenten gepland. Op vrijdag ga je naar de opdracht
 Met de Meesterproef laat je zien wat je hebt geleerd tijdens de minor. 
 Studenten die de vakken hebben gehaald kunnen aan de Meesterproef beginnen.
 
-De Meesterproef bestaat uit de 3 projectweken en een eindproject van 5 weken. 
+De Meesterproef bestaat uit 3 projectweken en een eindproject van 5 weken. 
 De 3 projectweken, 
 [PW1](https://github.com/cmda-minor-web/project-1-1819), 
 [PW2](https://github.com/cmda-minor-web/project-2-1819) en 
@@ -43,7 +43,7 @@ De Design rationale is een verantwoording van je ontwerp.
 In het eindproject doorloop je een iteratief proces. 
 Elke week bespreek je met je opdrachtgever je vorderingen en ideeen. 
 In de Product biografie hou je stap voor stap bij wat je allemaal hebt gedaan. 
-Je schrijf over het proces, de werkwijze en de planning. 
+Je schrijft over het proces, de werkwijze en de planning. 
 Ook schetsen, testen, uitprobeersels en inspiratie zijn deel van de Product biografie.
 
 ### Reflectie op eigen niveau
