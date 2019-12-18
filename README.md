@@ -1,4 +1,4 @@
-# Meesterproef 2019 @cmda-minor-web · 2018-2019
+# Meesterproef 2019 @cmda-minor-web · 2019-2020
 
 In de Meesterproef ga je toepassen wat je in de Minor Webdev hebt geleerd. 
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever. 
