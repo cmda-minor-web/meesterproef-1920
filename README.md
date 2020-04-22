@@ -6,20 +6,19 @@ Je gaat leren hoe je de geleerde kennis en skils kan gebruiken om een oplossing 
 , testen, maken ...
 Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken
 
-Coaches: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert, Janno Kapritsias en Koop Reynders.
 
 ## Werkwijze
 
 Voor de Meesterproef geef je met een eerste en tweede keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
 
-In de eerste week krijg je een briefing bij de opdrachtgever en schrijf je een debriefing. 
+In de eerste week krijg je een briefing van de opdrachtgever en schrijf je een debriefing. 
 Dat is de opdracht en de doelstellingen in eigen woorden beschreven. 
 Daarna ga je iedere week een proof-of-concept bespreken met je opdrachtgever. 
-In week 5 presenteer je het eindresultaat tijdens een expositie. 
-Hiervoor moet je ook een passende presentatie maken.
+In week 5 presenteer je het eindresultaat. 
+Hiervoor maak je een passende presentatie.
 
 Elke week zijn er 2 coachingsmomenten gepland. 
-Op vrijdag ga je naar de opdrachtgever om je vorderingen te bespreken.
+Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert en Koop Reynders.
 
 - Maandag/Dinsdag - Debriefing met een van de coaches.
 - Woensdag/Donderdag - Code review met een van de coaches.
@@ -33,9 +32,9 @@ Studenten die de vakken hebben gehaald kunnen aan de Meesterproef beginnen.
 
 De Meesterproef bestaat uit 3 projectweken en een eindproject van 5 weken. 
 De 3 projectweken, 
-[PW1](https://github.com/cmda-minor-web/project-1-1819), 
-[PW2](https://github.com/cmda-minor-web/project-2-1819) en 
-[PW3](https://github.com/cmda-minor-web/project-3-1819) tellen mee als AVV.
+[PW1](https://github.com/cmda-minor-web/project-1-1920), 
+[PW2](https://github.com/cmda-minor-web/project-2-1920) en 
+[PW3](https://github.com/cmda-minor-web/project-3-1920) tellen mee als AVV.
 
 Het eindproject wordt beoordeeld op een Design rationale, een Product biografie en een reflectie op het eigen niveau. 
 Én of de klant blij is met het gemaakte project.
