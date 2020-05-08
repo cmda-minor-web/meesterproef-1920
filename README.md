@@ -4,12 +4,11 @@ In de Meesterproef ga je toepassen wat je in de Minor Web Development hebt gelee
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever. 
 Je gaat leren hoe je de geleerde kennis en skils kan gebruiken om een oplossing voor een probleem te ontwerpen. Testen, maken, evalueren
 , testen, maken ...
-Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken
 
+Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken
+Voor de Meesterproef geef je met een eerste en tweede keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
 
 ## Werkwijze
-
-Voor de Meesterproef geef je met een eerste en tweede keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
 
 In de eerste week krijg je een briefing van de opdrachtgever en schrijf je een debriefing. 
 Dat is de opdracht en de doelstellingen in eigen woorden beschreven. 
