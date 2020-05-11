@@ -2,11 +2,10 @@
 
 In de Meesterproef ga je toepassen wat je in de Minor Web Development hebt geleerd. 
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever. 
-Je gaat leren hoe je de geleerde kennis en skils kan gebruiken om een oplossing voor een probleem te ontwerpen. Testen, maken, evalueren
-, testen, maken ...
+Je gaat leren hoe je de geleerde kennis en skils kan gebruiken om een oplossing voor een probleem te ontwerpen. Testen, maken, evalueren, testen, maken ...
 
 Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken
-Voor de Meesterproef geef je met een eerste en tweede keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
+Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.  
 
 ## Werkwijze
 
@@ -16,11 +15,11 @@ Daarna ga je iedere week een proof-of-concept bespreken met je opdrachtgever.
 In week 5 presenteer je het eindresultaat. 
 Hiervoor maak je een passende presentatie.
 
-Elke week zijn er 2 coachingsmomenten gepland. 
+Elke week zijn er coachingsmomenten gepland. 
 Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert en Koop Reynders.
 
 - Maandag/Dinsdag - Debriefing met een van de coaches.
-- Woensdag/Donderdag - Code review met een van de coaches.
+- Woensdag/Donderdag - Code/design review met een van de coaches.
 - Vrijdag - Bespreking met de opdrachtgever.
 
 
