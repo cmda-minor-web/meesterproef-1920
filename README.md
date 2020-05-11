@@ -8,7 +8,7 @@ Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken
 Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.
 
 ## Extra informatie
-[Kickoff slides](https://docs.google.com/presentation/d/1cMSx0X2GEiu5WfBdRT2i9Jly3MxVHs0V-USg9hH4p2M/edit?usp=sharing)
+[Kickoff slides](https://docs.google.com/presentation/d/1cMSx0X2GEiu5WfBdRT2i9Jly3MxVHs0V-USg9hH4p2M/edit?usp=sharing)  
 [Planning](https://docs.google.com/spreadsheets/d/1Oy8f5TSDYUA_qSwfTtYQTGjkNMUM0wAZDqDPHqgRpi4/edit?usp=sharing)
 
 ## Werkwijze
