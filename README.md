@@ -1,4 +1,4 @@
-# Meesterproef 2019 @cmda-minor-web · 2019-2020
+# Meesterproef @cmda-minor-web 1920
 
 In de Meesterproef ga je toepassen wat je in de Minor Web Development hebt geleerd.
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever.
@@ -13,9 +13,9 @@ Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan wel
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
 | <a href=#meesterproef---week-0>Week 0</a> | Projecten kiezen |   |   |   |   |
-| <a href=#meesterproef---week-1>Week 1</a> | Briefing opdrachtgever | Debriefing |   | Hemelvaart | Hemelvaart |
+| <a href=#meesterproef---week-1>Week 1</a> | Briefing opdrachtgever | Debriefing |   | <del>Hemelvaart</del> | <del>Hemelvaart</del> |
 | <a href=#meesterproef---week-2>Week 2</a> | Sprint 1 & Standups |   | Codereviews | Designreviews | Sprint 2 |
-| <a href=#meesterproef---week-3>Week 3</a> | Pinksteren |   | Codereviews | Designreviews | Sprint 3 |
+| <a href=#meesterproef---week-3>Week 3</a> | <del>Pinksteren</del> |   | Codereviews | Designreviews | Sprint 3 |
 | <a href=#meesterproef---week-4>Week 4</a> | Standups |   | Codereviews | Designreviews | Sprint 4 |
 | <a href=#meesterproef---week-5>Week 5</a> | Standups |   | Codereviews |   | Expo |
 
