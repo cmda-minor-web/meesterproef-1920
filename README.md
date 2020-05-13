@@ -17,7 +17,7 @@ Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan wel
 | <a href=#meesterproef---week-2>Week 2</a> | Sprint 1 & Standups |   | Codereviews | Designreviews | Sprint 2 |
 | <a href=#meesterproef---week-3>Week 3</a> | <del>Pinksteren</del> |   | Codereviews | Designreviews | Sprint 3 |
 | <a href=#meesterproef---week-4>Week 4</a> | Standups |   | Codereviews | Designreviews | Sprint 4 |
-| <a href=#meesterproef---week-5>Week 5</a> | Standups |   | Codereviews |   | Expo |
+| <a href=#meesterproef---week-5>Week 5</a> | Standups |   |   |   | Expo |
 
 
 
