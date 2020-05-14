@@ -2,10 +2,9 @@
 
 In de Meesterproef ga je toepassen wat je in de Minor Web Development hebt geleerd.
 Voor de Meesterproef krijg je een opdracht van een echte opdrachtgever.
-Je gaat leren hoe je de geleerde kennis en skils kan gebruiken om een oplossing voor een probleem te ontwerpen. Testen, maken, evalueren, testen, maken ...
+Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing voor een probleem te ontwerpen. Testen, maken, evalueren, testen, maken ...
 
-Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken
-Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt.
+<!-- Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken.  Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt. -->
 
 
 ## Planning
@@ -17,7 +16,7 @@ Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan wel
 | <a href=#meesterproef---week-2>Week 2</a> | Sprint 1 & Standups |   | Codereviews | Designreviews | Sprint 2 |
 | <a href=#meesterproef---week-3>Week 3</a> | <del>Pinksteren</del> |   | Codereviews | Designreviews | Sprint 3 |
 | <a href=#meesterproef---week-4>Week 4</a> | Standups |   | Codereviews | Designreviews | Sprint 4 |
-| <a href=#meesterproef---week-5>Week 5</a> | Standups |   | Codereviews |   | Expo |
+| <a href=#meesterproef---week-5>Week 5</a> | Standups |   |  | Demo final prototype  | Expo |
 
 
 
@@ -39,110 +38,62 @@ Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van G
 
 ## Programma
 
-### Meesterproef - Week 0
+### Meesterproef - Week 0 (11 mei)
 Deze week worden de projecten gepresenteerd en kun je kiezen welk project je wil doen.
 
-#### Maandag 11 mei
 
 - [Presentatie slides](https://docs.google.com/presentation/d/1cMSx0X2GEiu5WfBdRT2i9Jly3MxVHs0V-USg9hH4p2M/edit?usp=sharing)  
 - [Planning](https://docs.google.com/spreadsheets/d/1Oy8f5TSDYUA_qSwfTtYQTGjkNMUM0wAZDqDPHqgRpi4/edit?usp=sharing)
 
 
 
-### Meesterproef - Week 1
+### Meesterproef - Week 1 (18 - 22 mei)
+Deze week heb je je eerste afspraak met je opdrachtgever.
+Schrijf een debriefing van de opdracht en check deze met de opdrachtgever en je coach.
 
-#### Maandag 18 mei
-Eerste afspraak met je opdrachtgever.
-
-#### Dinsdag 19 mei
-Debriefing
-
-#### Woensdag 20 mei
-
-
-#### Donderdag 21 mei
-Donderdag is het Hemelvaart. Geen les.
-
-#### Vrijdag 22 mei
-Vrijdag is het Hemelvaart. Geen les.
+1. Maandag is de eerste afspraak met de opdrachtgever en heb je een standup en checkup met je coach.
+2. Dinsdag stuur je een debriefing.
+3. Donderdag en vrijdag is het Hemelvaart. Geen les.
 
 
 
-### Meesterproef - Week 2
 
-#### Maandag 25 mei
-Eerste sprint bij de opdrachtgever.
+### Meesterproef - Week 2 (25 - 29 mei )
+Deze week ga je twee keer testen bij de opdrachtgever.
+Maandag en vrijdag ga je de opdrachtgever laten zien wat je hebt gemaakt.
 
-'s Middags zijn er standup gesprekken.
-
-#### Dinsdag 26 mei
-
-
-#### Woensdag 27 mei
-Codereviews
-
-#### Donderdag 28 mei
-Designreviews
-
-#### Vrijdag 29 mei
-Tweede sprint bij de opdrachtgever.
+1. Maandag heb je een standup en checkup met je coach.
+2. Woensdag staan de eerste codereviews gepland.
+3. Donderdag is er een designreview.
 
 
-### Meesterproef - Week 3
-
-#### Maandag 1 juni
-Maandag is het tweede Pinksterdag. Geen les.
-
-#### Dinsdag 2 juni
 
 
-#### Woensdag 3 juni
-Codereviews
+### Meesterproef - Week 3 (1 - 5 juni)
+De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 3e sprint zien.
 
-#### Donderdag 4 juni
-Designreviews
 
-#### Vrijdag 5 juni
-Derde sprint bij de opdrachtgever.
+1. Maandag is het tweede pinksterdag. Geen les.
+2. Woensdag staan de eerste codereviews gepland.
+3. Donderdag is er een designreview.
 
 
 
 ### Meesterproef - Week 4
+Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 4e sprint zien.
 
-#### Maandag 8 juni
-'s Middags zijn er standup gesprekken.
-
-#### Dinsdag 2 juni
-
-
-#### Woensdag 3 juni
-Codereviews
-
-#### Donderdag 4 juni
-Designreviews
-
-#### Vrijdag 5 juni
-Vierde sprint bij de opdrachtgever.
+1. Maandag heb je een standup en checkup met je coach.
+2. Woensdag staan de eerste codereviews gepland.
+3. Donderdag is er een designreview.
 
 
 
 ### Meesterproef - Week 5
+Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final prototype zien aan je opdrachtgever. Vrijdag is de EXPO, dan kun je je werk laten zien aan collega's en wordt je werk beoordeeld.
 
-#### Maandag 15 juni
-'s Middags zijn er standup gesprekken.
-
-#### Dinsdag 2 juni
-
-
-#### Woensdag 3 juni
-
-
-#### Donderdag 4 juni
-Final prototype bij de opdrachtgever.
-
-#### vrijdag 19 juni
-Expo. Presentatie van de projecten.
-
+1. Maandag heb je een standup en checkup met je coach.
+2. Donderdag final prototype bij de opdrachtgever.
+3. Vrijdag EXPO. Presentatie en beoordeling van de projecten.
 
 
 
