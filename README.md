@@ -64,7 +64,7 @@ Deze week ga je twee keer testen bij de opdrachtgever.
 Maandag en vrijdag ga je de opdrachtgever laten zien wat je hebt gemaakt.
 
 1. Maandag heb je een standup en checkup met je coach.
-2. Woensdag staan de eerste codereviews gepland.
+2. Woensdag is de eerste codereviews.
 3. Donderdag is er een designreview.
 
 
@@ -75,7 +75,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 
 
 1. Maandag is het tweede pinksterdag. Geen les.
-2. Woensdag staan de eerste codereviews gepland.
+2. Woensdag is er een codereview.
 3. Donderdag is er een designreview.
 
 
@@ -84,7 +84,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 4e sprint zien.
 
 1. Maandag heb je een standup en checkup met je coach.
-2. Woensdag staan de eerste codereviews gepland.
+2. Woensdag is er een codereview.
 3. Donderdag is er een designreview.
 
 
