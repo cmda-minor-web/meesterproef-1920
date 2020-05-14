@@ -79,7 +79,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 
 
 
-### Meesterproef - Week 4
+### Meesterproef - Week 4 (8 - 12 juni)
 Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 4e sprint zien.
 
 1. Maandag heb je een standup en checkup met je coach.
@@ -88,7 +88,7 @@ Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat 
 
 
 
-### Meesterproef - Week 5
+### Meesterproef - Week 5 (15 - 19 juni)
 Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final prototype zien aan je opdrachtgever. Vrijdag is de EXPO, dan kun je je werk laten zien aan collega's en wordt je werk beoordeeld.
 
 1. Maandag heb je een standup en checkup met je coach.
