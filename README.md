@@ -31,15 +31,16 @@ Hiervoor maak je een passende presentatie.
 Elke week zijn er coachingsmomenten gepland.
 Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert en Koop Reynders.
 
-- Maandag/Dinsdag - Debriefing met een van de coaches.
-- Woensdag/Donderdag - Code/design review met een van de coaches.
-- Vrijdag - Bespreking met de opdrachtgever.
+1. Maandag - Standup & checkup met je coach.
+2. Woensdag - Codereview met Joost of Laurens.
+3. Donderdag - Designreview met Vasilis of Koop.
+4. Vrijdag - Testen met de opdrachtgever.
 
 
 ## Programma
 
 ### Meesterproef - Week 0 (11 mei)
-Deze week worden de projecten gepresenteerd en kun je kiezen welk project je wil doen.
+Deze week worden de projecten gepresenteerd en kun je een project kiezen.
 
 
 - [Presentatie slides](https://docs.google.com/presentation/d/1cMSx0X2GEiu5WfBdRT2i9Jly3MxVHs0V-USg9hH4p2M/edit?usp=sharing)  
