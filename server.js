@@ -3,9 +3,11 @@ const app = express()
 const multer = require('multer')
 const fs = require('fs')
 const fetch = require('node-fetch')
+
 const {
     createWorker
 } = require('tesseract.js')
+
 const worker = createWorker({
     logger: m => console.log(m),
 })
@@ -38,18 +40,14 @@ app
         res.render('index')
     })
     .get('/test', (req, res) => {
-        res.render('test')
+        res.render('./pages/test')
     })
     .post('/upload', async (req, res) => {
         upload(req, res, err => {
-            console.log(req.file)
+            // console.log(req.file)
             let image = `./uploads/${req.file.originalname}`
             imageToText(image)
                 .then(data => data)
-                .then(item => {
-                    res.redirect('/test', item)
-                })
-
         })
     })
 
@@ -62,6 +60,7 @@ async function imageToText(image) {
             text
         }
     } = await worker.recognize(image)
+    console.log(text, 'ds')
     await worker.terminate()
     return text
 }
