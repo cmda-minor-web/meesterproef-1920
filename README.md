@@ -32,8 +32,8 @@ Elke week zijn er coachingsmomenten gepland.
 Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert en Koop Reynders.
 
 1. Maandag - Standup & checkup met je coach.
-2. Woensdag - Codereview met Joost of Laurens.
-3. Donderdag - Designreview met Vasilis of Koop.
+2. Woensdag - Codereview met Joost en Laurens.
+3. Donderdag - Designreview met Vasilis en Koop.
 4. Vrijdag - Testen met de opdrachtgever.
 
 
