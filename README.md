@@ -83,6 +83,7 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 
 ##### Friday
 - Try to match registration number with API
+- Deploy on Heroku
 
 </details>
 
