@@ -43,7 +43,9 @@ How can the user fetch the leaflet from a medicine reliably and quickly?
 
 ### Resources
 #### API
-We'll use a rest API from De Voorhoede containing medicine information. Not all information of a medicine is available. The API has the follwoing structure:
+We'll use a rest API from De Voorhoede containing medicine information. Not all information of a medicine is 
+
+ailable. The API has the follwoing structure:
 ```
 {
     "id": 0,
@@ -66,7 +68,7 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 - Solution to read PDF files
 
 ##### What we leave out
-- updating the dataset when new dasta is avaiable.
+- updating the dataset when new data is available.
 
 #### Planning
 ##### Week 1
