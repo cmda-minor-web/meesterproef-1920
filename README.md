@@ -75,8 +75,6 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 <details>
 <summary>Detailed planning</summary>
   
-#### Workwise
-  
 ------ 
   
 ##### Monday
@@ -127,3 +125,17 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 #### Week 5
 - Squash last bugs
 - Last tweaks
+
+#### Workwise
+We use the SCRUM methodology and we'll use weekly sprints. Our weekly schedule looks like this:
+
+- **Monday** Standup & checkup with your coach.
+- **Wednesday** Code review with Joost and Laurens.
+- **Thursday** Design review with Vasilis and Koop.
+- **Friday** Testing with the client, processing feedback and create a detailed planning for next week.
+
+##### Communication
+We use Discord as our main communication tool. Github will be our platform for code discussions.
+
+##### Git
+We will collaborate on this repo. We work with a kanban board. We will create a new branch for each issue. The master is protected, which means each merge request needs to be reviewed by the other collaborator, before it can be merged yo the master branche.
