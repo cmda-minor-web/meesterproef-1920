@@ -1,3 +1,7 @@
+## Collaborators
+- [Damian Veltkamp](url)
+- [Leroy van Biljouw](url)
+
 ## Debriefing
 ### The client
 We will build a web application for De Voorhoede.
@@ -10,3 +14,9 @@ De Voorhoede is looking for a better solution for their medicine scanner. They w
 - The webapp must be usable for everyone, even if the user does not or cannot use the camera or webcam. A manual option to enter registration numbers is required.
 - The user should be able to request the package leaflet of a medicine. A link to the leaflet is sufficent.
 - The application must consist of at least a homepage, scanner page and results page. A page that show the scan history is optional and requires some extra attention to privacy.
+
+### Resources
+
+### Plan of action
+
+### Planning
