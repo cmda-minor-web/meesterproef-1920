@@ -12,7 +12,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
 | <a href=#meesterproef---week-0>Week 0</a> | Projecten kiezen |   |   |   |   |
-| <a href=#meesterproef---week-1>Week 1</a> | Briefing opdrachtgever | Debriefing |   | <del>Hemelvaart</del> | <del>Hemelvaart</del> |
+| <a href=#meesterproef---week-1>Week 1</a> | Briefing opdrachtgever | [Debriefing](Debriefing.md) |   | <del>Hemelvaart</del> | <del>Hemelvaart</del> |
 | <a href=#meesterproef---week-2>Week 2</a> | Sprint 1 + standup & checkup |   | Codereviews | Designreviews | Sprint 2 |
 | <a href=#meesterproef---week-3>Week 3</a> | <del>Pinksteren</del> |   | Codereviews | Designreviews | Sprint 3 |
 | <a href=#meesterproef---week-4>Week 4</a> | Standup & checkup |   | Codereviews | Designreviews | Sprint 4 |
@@ -22,7 +22,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 
 ## Werkwijze
 
-In de eerste week krijg je een briefing van de opdrachtgever en schrijf je een debriefing.
+In de eerste week krijg je een briefing van de opdrachtgever en schrijf je een [debriefing](Debriefing.md).
 Dat is de opdracht en de doelstellingen in eigen woorden beschreven.
 Daarna ga je iedere week een proof-of-concept bespreken met je opdrachtgever.
 In week 5 presenteer je het eindresultaat.
@@ -115,31 +115,30 @@ Het eindproject wordt beoordeeld op een Design rationale, een Product biografie 
 Én of de klant blij is met het gemaakte project.
 
 ### Design rationale
-In de Design rationale schrijf je de debriefing, de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code.
+In de Design rationale schrijf je de [debriefing](Debriefing.md), de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code.
 De Design rationale is een verantwoording van je ontwerp.
 
 ### Product biografie
-In het eindproject doorloop je een iteratief proces.
-Elke week bespreek je met je opdrachtgever je vorderingen en ideeen.
+In de meesterproef doorloop je een iteratief proces.
+Elke week bespreek je met je opdrachtgever je vorderingen en ideeën.
 In de Product biografie hou je stap voor stap bij wat je allemaal hebt gedaan.
 Je schrijft over het proces, de werkwijze en de planning.
 Ook schetsen, testen, uitprobeersels en inspiratie zijn deel van de Product biografie.
 
 ### Reflectie op eigen niveau
-Aan de hand van de vakrubrics reflecteer je systematisch op je werk.
-In een aantal gesprekken met _reviewen_ we het design en de code van je project.
+Wekelijks reflecteer je systematisch op je werk.
+In een aantal gesprekken _reviewen_ we de code en het design van je project.
 Dit doen we op basis van de rubrics van de verschillende vakken.
 Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
 
 ### Een blije klant
-Voor de klant maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX.
-Jeweettoch.
+Voor de klant maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX. (Jeweettoch)
 Een blije klant is een goede klant.
 Soms ontkom je er niet aan dat je een beetje eigenwijs moet doen.
 Dan doe je juist niet wat de klant wil en probeer je de opdrachtgever te overtuigen met een proof-of-concept.
 En soms kan het voorkomen dat het proces niet helemaal soepel loopt.
 Dat hoort erbij en daar leer je van.
-Aan het eind van het project vragen we de klant feedback op het geleverde werk...
+Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
