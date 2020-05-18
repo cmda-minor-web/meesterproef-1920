@@ -1,3 +1,9 @@
+# Medicine scanner
+## Table of contents
+- [collaborators](#collaborators)
+- [Debriefing](#debriefing)
+
+<a name="collaborators">
 ## Collaborators
 - [Damian Veltkamp](url)
 - [Leroy van Biljouw](url)
