@@ -1,4 +1,6 @@
 # Medicine scanner
+In this course we will bundle all our newly acquired superpowers to create a webapp for a real client. We will create a webapp for De Voorhoede. They've asked us to create a completely new version of their Medicine scanner, using Machine Learning and Optical character Recognition. 
+
 ## Table of contents
 - [Collaborators](#collaborators)
 - [Debriefing](#debriefing)
