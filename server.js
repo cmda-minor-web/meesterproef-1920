@@ -47,7 +47,8 @@ app
             // console.log(req.file)
             let image = `./uploads/${req.file.originalname}`
             imageToText(image)
-                .then(data => data)
+                .then(data => res.send(data))
+
         })
     })
 
