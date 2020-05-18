@@ -30,11 +30,11 @@ De Voorhoede is looking for a better solution for their medicine scanner. They w
 
 ### Main/sub Questions
 - How can the user fetch the leaflet from a medicine reliably and quickly?
--- How can the webapp recognise the registration number?
--- How can the webapp be used without webcam/camera?
--- how can we guarantee the user privacy?
--- What happens when the webapp can't find the corresponding medicine?
--- What happens if information is missing?
+- - How can the webapp recognise the registration number?
+- - How can the webapp be used without webcam/camera?
+- - how can we guarantee the user privacy?
+- - What happens when the webapp can't find the corresponding medicine?
+- - What happens if information is missing?
 
 ### Resources
 #### API
