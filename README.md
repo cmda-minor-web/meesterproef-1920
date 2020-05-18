@@ -78,6 +78,7 @@ Try to match registration number with API
 
 #### Week 1
 - Create a basic functional prototype that can scan and match registration numbers from the API.
+- Save JSON on the server temporarily.
 
 #### Week 2
 - Error handling
