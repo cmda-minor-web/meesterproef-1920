@@ -11,7 +11,7 @@ In this course we will bundle all our newly acquired superpowers to create a web
   
 ## Collaborators
 - [Damian Veltkamp](https://github.com/damian1997/meesterproef-1920)
-- [Leroy van Biljouw](url)
+- [Leroy van Biljouw](https://github.com/SqueezyDough/meesterproef-1920)
 
 ------
 
