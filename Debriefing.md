@@ -1,4 +1,4 @@
-#Debriefing
+# Debriefing
 
 Na je eerste gesprek met de opdrachtgever schrijf je en debriefing. Dat is de opdracht in je eigen woorden. Met een debriefing kun je testen of je de opdracht goed begrijpt en kun je meteen focuspunten en een (grove) planning aan de opdrachtgever presenteren. Dit is sprint 0.
 
