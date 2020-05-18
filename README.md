@@ -63,6 +63,7 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 - Offline strategy
 - Responsive layout
 - Error handling
+- Solution to read PDF files
 
 ##### What we leave out
 - updating the dataset when new dasta is avaiable.
