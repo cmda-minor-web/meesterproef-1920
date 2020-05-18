@@ -64,25 +64,26 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 ------ 
   
 ##### Monday
-Debriefing
+- Debriefing
 
 ##### Tuesday
-User scenario
-Persona
-Styleguide and design
+- User scenario
+- Persona
+- Styleguide and design
  
 ##### Wednesday
-Boilerplate
-Templating
-Routing
-Access Camera
+- Boilerplate
+- Templating
+- Routing
+- Access Camera
 
 ##### Thursday
-Read OCR docs
-First OCR test
+- Read OCR docs
+- First OCR test
 
 ##### Friday
-Try to match registration number with API
+- Try to match registration number with API
+
 </details>
 
 ------
