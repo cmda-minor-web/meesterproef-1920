@@ -52,6 +52,11 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 ```
 
 ### Plan of action
+#### Concept description
+Our concept
+
+#### Scope
+Our scope
 
 #### Planning
 ##### Week 1
