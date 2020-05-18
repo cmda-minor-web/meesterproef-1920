@@ -53,12 +53,19 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 },
 ```
 
-### Plan of action
-#### Concept description
-Our concept
-
+### Plan of action 
 #### Scope
-Our scope
+- Scan a medicine using a camera / webcam
+- If the input contains an incompleted name or code, give 3 suggestions, ordered by probability
+- Improve suggestions with machine learning. (Increase / decrease weight)
+- Get informations manually with a text input is the camera is not available.
+- Caching strategy
+- Offline strategy
+- Responsive layout
+- Error handling
+
+##### What we leave out
+- updating the dataset when new dasta is avaiable.
 
 #### Planning
 ##### Week 1
