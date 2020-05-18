@@ -1,0 +1,32 @@
+{
+  "name": "meesterproef-1920",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm ./server.js",
+    "dev": "nodemon -r esm ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SqueezyDough/meesterproef-1920.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SqueezyDough/meesterproef-1920/issues"
+  },
+  "homepage": "https://github.com/SqueezyDough/meesterproef-1920#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
