@@ -54,6 +54,9 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 ### Plan of action
 
 ### Planning
+<details>
+<summary>Detailed planning (week1)</summary>
+  
 #### Monday
 Debriefing
 
@@ -74,6 +77,8 @@ First OCR test
 
 ##### Friday
 Try to match registration number with API
+</details>
+
 
 
 #### Week 1
