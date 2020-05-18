@@ -2,7 +2,7 @@
 ### The client
 We will build a web application for De Voorhoede.
 
-### Voorgeschiedenis
+### History
 De Voorhoede is looking for a better solution for their medicine scanner. They want to see if an application that uses Machine Learning (ML) or Deep Learning (DL) and Optical Character Recognition (OCR) works better. The webapp can stay conceptual, meaning the webapp must be functional for at least 3 to 4 medicines. A large dataset is not required.
 
 #### User Requirement List
