@@ -54,3 +54,44 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 ### Plan of action
 
 ### Planning
+#### Monday
+Debriefing
+
+#### Tuesday
+User scenario
+  Persona
+Styleguide and design
+ 
+#### Wednesday
+Boilerplate
+Templating
+Routing
+Access Camera
+
+##### Thursday
+Read OCR docs
+First OCR test
+
+##### Friday
+Try to match registration number with API
+
+
+#### Week 1
+- Create a basic functional prototype that can scan and match registration numbers from the API.
+
+#### Week 2
+- Error handling
+- Add leaflets
+- Implement a caching strategy.
+
+#### Week 3
+- Finetune algorithm. Create fallbacks when the registration can not be read properly.
+- Test and Improve accessibility
+
+#### Week 4
+- Optimise perfomance
+- Testing
+
+#### Week 5
+- Squash last bugs
+- Last tweaks
