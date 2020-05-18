@@ -50,7 +50,7 @@ Deze week worden de projecten gepresenteerd en kun je een project kiezen.
 
 ### Meesterproef - Week 1 (18 - 22 mei)
 Deze week heb je je eerste afspraak met je opdrachtgever.
-Schrijf een debriefing van de opdracht en check deze met de opdrachtgever en je coach.
+Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opdrachtgever en je coach.
 
 1. Maandag is de eerste afspraak met de opdrachtgever en heb je een standup en checkup met je coach.
 2. Dinsdag stuur je een debriefing.
