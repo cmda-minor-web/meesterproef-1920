@@ -4,10 +4,13 @@
 - [Debriefing](#debriefing)
 
 <a name="collaborators">
+  
 ## Collaborators
 - [Damian Veltkamp](url)
 - [Leroy van Biljouw](url)
 
+<a name="debriefing">
+  
 ## Debriefing
 ### The client
 We will build a web application for De Voorhoede.
