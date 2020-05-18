@@ -138,4 +138,4 @@ We use the SCRUM methodology and we'll use weekly sprints. Our weekly schedule l
 We use Discord as our main communication tool. Github will be our platform for code discussions.
 
 ##### Git
-We will collaborate on this repo. We work with a kanban board. We will create a new branch for each issue. The master is protected, which means each merge request needs to be reviewed by the other collaborator, before it can be merged yo the master branche.
+We will collaborate on this repo. We work with a kanban board. We will create a new branch for each issue. The master is protected, which means each merge request needs to be reviewed by the other collaborator, before it can be merged with the master branche.
