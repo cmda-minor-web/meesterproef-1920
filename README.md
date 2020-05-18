@@ -75,6 +75,8 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 <details>
 <summary>Detailed planning</summary>
   
+#### Workwise
+  
 ------ 
   
 ##### Monday
