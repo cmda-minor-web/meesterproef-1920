@@ -4,7 +4,7 @@ Na je eerste gesprek met de opdrachtgever schrijf je en debriefing. Dat is de op
 
 Hier kun je lezen wat je in een debriefing schrijft: [Hoe stel je een goede briefing en debriefing op?](https://www.joho.org/en/hoe-stel-je-een-goede-briefing-en-debriefing-onderzoeksomschrijving-en-terugkoppeling-daarop-op). Dit kun je als team doen of individueel.
 
-Na de debriefing ga je aan de slag met de interactie en user scenario's bedenken en testen. Dat is de eerste sprint.
+Na de debriefing ga je aan de slag met de interactie, user scenario's bedenken en misschien een Customer Journey. Probeer voor eerste sprint meteen onderdelen te protypen en testen.
 
 > A good user scenario helps you grasp your users goals and design your product to perfectly match them. Get to know your users, understand their motivation for visiting your site and then start designing.
 Sabina Idler ([Usabilla](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/))
