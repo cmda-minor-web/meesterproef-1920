@@ -32,8 +32,8 @@ Elke week zijn er coachingsmomenten gepland.
 Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert en Koop Reynders.
 
 1. Maandag - Standup & checkup met je coach.
-2. Woensdag - Codereview met Joost of Laurens.
-3. Donderdag - Designreview met Vasilis of Koop.
+2. Woensdag - Codereview met Joost en Laurens.
+3. Donderdag - Designreview met Vasilis en Koop.
 4. Vrijdag - Testen met de opdrachtgever.
 
 
@@ -127,9 +127,9 @@ Ook schetsen, testen, uitprobeersels en inspiratie zijn deel van de Product biog
 
 ### Reflectie op eigen niveau
 Aan de hand van de vakrubrics reflecteer je systematisch op je werk.
-In een aantal gesprekken met een coach _reviewen_ we de code van je project.
+In een aantal gesprekken met _reviewen_ we het design en de code van je project.
 Dit doen we op basis van de rubrics van de verschillende vakken.
-Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten en/of aspecten van het design-proces waar je je nog op kan verbeteren.
+Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
 
 ### Een blije klant
 Voor de klant maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX.
