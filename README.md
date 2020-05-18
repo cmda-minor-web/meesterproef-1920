@@ -1,6 +1,6 @@
 # Medicine scanner
 ## Table of contents
-- [collaborators](#collaborators)
+- [Collaborators](#collaborators)
 - [Debriefing](#debriefing)
 
 <a name="collaborators">
