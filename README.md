@@ -58,9 +58,10 @@ We'll use a rest API from De Voorhoede containing medicine information. Not all 
 - Create a basic functional prototype that can scan and match registration numbers from the API.
 - Save JSON on the server temporarily.
 
------- 
 <details>
-<summary>Detailed planning (week1)</summary>
+<summary>Detailed planning</summary>
+  
+------ 
   
 #### Monday
 Debriefing
