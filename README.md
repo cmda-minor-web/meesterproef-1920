@@ -139,8 +139,11 @@ We use the SCRUM methodology and we'll use weekly sprints. Our weekly schedule l
 - **Thursday** Design review with Vasilis and Koop.
 - **Friday** Testing with the client, processing feedback and create a detailed planning for next week.
 
-##### Communication
+##### Team Communication
 We use Discord as our main communication tool. Github will be our platform for code discussions.
+
+##### Client communication
+We use Slack to communicate with the client. On Mondays and Fridays we have a video meeting with the client using Google Meet.
 
 ##### Distributing tasks
 We use the ancient task distributing methodology 'Steen, Papier, Schaar' to decide who gets the most fun task.
