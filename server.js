@@ -40,15 +40,23 @@ app
         res.render('index')
     })
     .get('/test', (req, res) => {
+        console.log('wth ',req);
+        
         res.render('./pages/test')
     })
-    .post('/upload', async (req, res) => {
-        upload(req, res, err => {
-            // console.log(req.file)
-            let image = `./uploads/${req.file.originalname}`
-            imageToText(image)
-                .then(data => data)
-        })
+    .post('/upload', upload, async (req, res) => {
+        console.log(req);
+        const image = `./uploads/${req.file.originalname}`
+        const text = await imageToText(image);
+        console.log(image);
+        
+        res.render('./pages/test', { text })
+        // upload(req, res, err => {
+        //     // console.log(req.file)
+        //     let image = `./uploads/${req.file.originalname}`
+        //     imageToText(image)
+        //         .then(data => data)
+        // })
     })
 
 async function imageToText(image) {
