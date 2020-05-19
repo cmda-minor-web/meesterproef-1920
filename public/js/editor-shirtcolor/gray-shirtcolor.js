@@ -1,0 +1,1 @@
+document.getElementById("Gray-shirtcolor").checked = true;

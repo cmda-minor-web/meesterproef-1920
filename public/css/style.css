@@ -1,0 +1,262 @@
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+    font-family: Streamster;
+    src: url(../source/fonts/SFAlienEncounters-Italic.ttf);
+  }
+  @font-face {
+    font-family: Nixies ;
+    src: url(../source/fonts/NixiesRegular-anra.ttf);
+  }
+/****************************/
+/* Preset codes toepasbaar voor elke pagina*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+   
+    font-family: 'Raleway', sans-serif;
+    color: #000f;
+}
+#searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#searchbar label {
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+}
+nav {
+    max-width: 1170px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 0 auto;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  nav b a {
+    font-size: 3em;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 0;
+  }
+  
+input[type="text"] {
+    width: 100%;
+    padding: 10px 15px;
+    text-align: right;
+    font-size: 2em;
+    border: none;
+}
+
+button::after {
+    content: " ";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    position: relative;
+    width: 5em;
+    z-index: 1;
+    cursor: pointer;
+    background-size: 400%;
+    animation:colorshift 3s linear 0s infinite;
+}
+
+body {
+    margin: 0 auto;
+    min-height: calc(100vh - 0px);
+    background-color: #202024;
+}
+nav {
+    background-color: #202024;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #fff;
+    z-index: 9;
+    padding: 16px;
+    padding: 1em;
+    display: inline-flex;
+}
+nav img {
+    width: 32px;
+    width: 2em;
+    height: 32px;
+    height: 2em;
+}
+nav li {
+    float: left;
+    text-align: center;
+    margin: 0 8px;
+    margin: 0 0.5em;
+}
+nav li a {
+    color:#fff;
+    text-decoration: none;
+}
+ul {
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+p {
+    margin: 0;
+    font-size: 16px;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 0;
+}
+h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    font-weight: bold;
+}
+
+/****************************/
+/* Headings font en kleur */
+h1,
+h2,
+h3 {
+
+    color: #000;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* ------------------- */
+
+/* homepage */
+body {
+    background-color: #202024;
+    height: 100vh;
+}
+body nav {
+    display: none;
+}
+
+main, section {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1em;
+}
+body main h1 {
+    color: #fff;
+    text-align: center;
+}
+#result-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#result-list li{
+    list-style: none;
+    color: #fff;
+    /* width: 30em; */
+    display: flex;
+    flex-direction: column;
+    width: 17em;
+}
+
+/* ------------------- */
+
+
+
+/****************************/
+/*+++++MEDIA QUERIES+++++*/
+/*Bij de aangegeven max-width wordt de code uitgevoerd!*/
+/*Desktop en laptop*/
+@media (max-width:1280px) {}
+
+/*tablets landscape mode*/
+@media (max-width:960px) {
+    h1 {
+        font-size: 40px;
+        font-size: 2.5em;
+    }
+    body main > section{
+        padding: 112px 32px;
+        padding: 7em 2em;
+        text-shadow: 0 0 black;
+    }
+    body section {
+        padding-bottom: 0em;
+    }
+
+
+}
+/*tablets portrait mode*/
+@media (max-width:720px) {
+
+    
+}
+
+
+
+/*mobile */
+@media (max-width:480px) {
+}
+
+/****************************/
+/*+++++++++++++++++++++++*/
+
+
+@keyframes colorshift
+{
+    
+      0% {
+        background-position:0%  100%;
+      }
+      50% {
+        background-position:100%  100%;
+      }
+
+      100% {
+        background-position:0%  100%;
+      }
+      
+}

@@ -1,0 +1,1 @@
+document.getElementById("Orange-shirtcolor").checked = true;

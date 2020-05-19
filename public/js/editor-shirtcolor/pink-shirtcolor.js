@@ -1,0 +1,1 @@
+document.getElementById("Pink-shirtcolor").checked = true;

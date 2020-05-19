@@ -1,0 +1,1 @@
+document.getElementById("White-shirtcolor").checked = true;

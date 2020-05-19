@@ -1,0 +1,1 @@
+document.getElementById("Green-shirtcolor").checked = true;
