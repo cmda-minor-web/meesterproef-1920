@@ -142,6 +142,9 @@ We use the SCRUM methodology and we'll use weekly sprints. Our weekly schedule l
 ##### Communication
 We use Discord as our main communication tool. Github will be our platform for code discussions.
 
+##### Distributing tasks
+We use the ancient task distributing methodology 'Steen, Papier, Schaar' to decide who is getting the most fun task.
+
 ##### Git
 We will collaborate on this repo. We work with a kanban board. We will create a new branch for each issue. The master is protected, which means each merge request needs to be reviewed by the other collaborator, before it can be merged with the master branche.
 
