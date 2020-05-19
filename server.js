@@ -7,6 +7,7 @@ const port = process.env.PORT
 //routes
 const upload = require('./modules/multer')
 const postImage = require('./routes/postImage')
+const home = require('./routes/home')
 
 
 app
@@ -16,14 +17,7 @@ app
     .use(express.static('public'))
     .set('view engine', 'ejs')
     .set('views', 'views')
-    .get('/', (req, res) => {
-        res.render('index')
-    })
-    .get('/test', (req, res) => {
-        console.log('wth ',req);
-        
-        res.render('./pages/test')
-    })
+    .get('/', home)
     .post('/upload', upload, postImage)
 
 app.listen(port, () => console.log('listening to ' + port))
