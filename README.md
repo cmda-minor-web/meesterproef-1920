@@ -147,4 +147,4 @@ We will collaborate on this repo. We work with a kanban board. We will create a 
 <a name="docs">
   
 ## Other documentation
-For more docentation about our cocept visit our [Wicky](https://github.com/SqueezyDough/meesterproef-1920/wiki)!
+For more documentation about our medicine scanner visit our [Wicky](https://github.com/SqueezyDough/meesterproef-1920/wiki)!
