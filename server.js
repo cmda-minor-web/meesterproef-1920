@@ -44,6 +44,7 @@ app
         
         res.render('./pages/test')
     })
+
     .post('/upload', upload, async (req, res) => {
         console.log(req);
         const image = `./uploads/${req.file.originalname}`
@@ -57,6 +58,7 @@ app
         //     imageToText(image)
         //         .then(data => data)
         // })
+
     })
 
 async function imageToText(image) {
