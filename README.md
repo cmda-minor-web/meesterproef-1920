@@ -61,7 +61,8 @@ ailable. The API has the follwoing structure:
 - Scan a medicine using a camera / webcam
 - If the input contains an incompleted name or code, give 3 suggestions, ordered by probability
 - Improve suggestions with machine learning. (Increase / decrease weight)
-- Get information manually with a text input is the camera is not available.
+- Get an overview page with all medicines, so the user can manually search for information when the camera is not available.
+- Update the overview page with a autocomplete search input The search field looks for the best match when the user makes an error.
 - Caching strategy
 - Offline strategy
 - Responsive layout
