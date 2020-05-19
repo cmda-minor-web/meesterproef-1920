@@ -4,6 +4,7 @@ In this course we will bundle all our newly acquired superpowers to create a web
 ## Table of contents
 - [Collaborators](#collaborators)
 - [Debriefing](#debriefing)
+- [Other documentation](#docs)
 
 ------
 
@@ -142,3 +143,8 @@ We use Discord as our main communication tool. Github will be our platform for c
 
 ##### Git
 We will collaborate on this repo. We work with a kanban board. We will create a new branch for each issue. The master is protected, which means each merge request needs to be reviewed by the other collaborator, before it can be merged with the master branche.
+
+<a name="docs">
+  
+## Other documentation
+For more docentation about our cocept visit our [Wicky](https://github.com/SqueezyDough/meesterproef-1920/wiki)!
