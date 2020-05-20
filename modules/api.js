@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const fetch = require('node-fetch')
 
 async function apiFetch() {
@@ -28,3 +29,26 @@ function textCompressed(medsName) {
 // textCompressed('LevonorgestrelV/Ethinylestradiol Aurobi o 3X27 filmomhulde tabletten ‘ Bevat 0.a. lactosemonohydraat. Zie bijsluiter voor verdere informatie. L ees voor het gebruik de bijsluiter. Voor oraai gebruik. guiten het zicht en bereik van kinderen houden. gewaren beneden 30°C. RYG 111871 UR.')
 
 module.exports = getData
+=======
+const nodeFetch = require('node-fetch')
+const stringSimilarity = require('string-similarity');
+
+async function fetch() {
+    const url = 'https://hva-cmd-meesterproef-ai.now.sh/medicines'
+    const response = await nodeFetch(url)
+    const json = await response.json()
+    return json
+}
+
+// search function
+async function getMedicineName(value) {
+    const medicines = await fetch()
+    const mediceneNames = medicines.map(medicine => medicine.name)
+    const medicine = stringSimilarity.findBestMatch(value, mediceneNames)
+    return medicine.bestMatch
+}
+
+module.exports = {
+    getMedicineName
+}
+>>>>>>> Stashed changes
