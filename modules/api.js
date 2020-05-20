@@ -1,17 +1,27 @@
 const nodeFetch = require('node-fetch')
+const stringSimilarity = require('string-similarity');
+const medicineJson = require('../medicines.json');
 
 async function fetch(value) {
-    console.log(value == "RVG 124146/23529");
-
     const url = `https://hva-cmd-meesterproef-ai.now.sh/medicines?q=${value}`
     const response = await nodeFetch(url)
     const json = await response.json()
     return json
 }
 
+async function jsonFetch() {
+    const url = 'https://hva-cmd-meesterproef-ai.now.sh/medicines'
+    const response = await nodeFetch(url)
+    const json = await response.json()
+    return json
+}
+
+// search function
 async function getMedicine(value) {
-    const medicine = await fetch(value)
-    return medicine
+    const medicines = await jsonFetch()
+    const mediceneNames = medicines.map(medicine => medicine.name)
+    const medicine = stringSimilarity.findBestMatch(value, mediceneNames)
+    return medicine.bestMatch
 }
 
 async function search (req,res) {
