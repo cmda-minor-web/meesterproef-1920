@@ -29,10 +29,10 @@ In week 5 presenteer je het eindresultaat.
 Hiervoor maak je een passende presentatie.
 
 Elke week zijn er coachingsmomenten gepland.
-Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Vasilis van Gemert en Koop Reynders.
+Coaches voor de Meesterproef zijn: Joost Faber, Laurens Aarnoudse, Janno Kapritsias, Vasilis van Gemert en Koop Reynders.
 
 1. Maandag - Standup & checkup met je coach.
-2. Woensdag - Codereview met Joost en Laurens.
+2. Woensdag - Codereview met Joost, Laurens en Janno.
 3. Donderdag - Designreview met Vasilis en Koop.
 4. Vrijdag - Testen met de opdrachtgever.
 
