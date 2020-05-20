@@ -11,7 +11,7 @@ async function getData(string) {
     console.log(string)
     const meds = data.map(d => {
         const str = d.name
-        if () {
+        if (name) {
             console.log(d)
             console.log(compareString)
             // console.log(d)
