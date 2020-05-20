@@ -19,14 +19,8 @@ app.use(bodyParser.urlencoded({
 // Set Static path for non html code like pictures and CSS
 app.use(express.static(path.join(__dirname + 'public')))
 
+require('./modules/routes')(app);
 
-app.get('/', (req, res) => {
-    res.render('pages/index')
-  })
-
-  app.get('/overview', (req, res) => {
-    res.render('pages/overview')
-  })
 
 
 
