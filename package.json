@@ -37,5 +37,8 @@
     "nodemon": "^2.0.3",
     "string-similarity": "^4.0.1",
     "tesseract.js": "^2.1.1"
+  },
+  "devDependencies": {
+    "string-similarity": "^4.0.1"
   }
 }

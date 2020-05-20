@@ -1,27 +1,31 @@
-const fetch = require('node-fetch')
+const nodeFetch = require('node-fetch')
+const stringSimilarity = require('string-similarity');
 
-async function apiFetch() {
-    const url = `https://hva-cmd-meesterproef-ai.now.sh/medicines`
-    const response = await fetch(url)
+async function fetch() {
+    const url = 'https://hva-cmd-meesterproef-ai.now.sh/medicines'
+    const response = await nodeFetch(url)
     const json = await response.json()
     return json
 }
-async function getData(string) {
-    const data = await apiFetch()
-    console.log(string)
-    const meds = data.map(d => {
-        const str = d.name
-        if (name) {
-            console.log(d)
-            console.log(compareString)
-            // console.log(d)
-            // return d
-        }
-    })
-    return meds
+
+// search function
+async function getMedicineName(value) {
+    const medicines = await fetch()
+    const mediceneNames = medicines.map(medicine => medicine.name)
+    const medicine = stringSimilarity.findBestMatch(value, mediceneNames)
+    return medicine.bestMatch
+}
+async function getMedicineData(value) {
+    const medicines = await fetch()
+    const medicineNames = medicines.map(medicine => medicine.name)
+    const medicine = stringSimilarity.findBestMatch(value, medicineNames).bestMatch
+    // console.log(medicine)
+    const medicineData = medicines.filter(meds => meds.name == medicine.target)
+    console.log(medicineData)
+    return medicineData
 }
 
-
-// textCompressed('LevonorgestrelV/Ethinylestradiol Aurobi o 3X27 filmomhulde tabletten ‘ Bevat 0.a. lactosemonohydraat. Zie bijsluiter voor verdere informatie. L ees voor het gebruik de bijsluiter. Voor oraai gebruik. guiten het zicht en bereik van kinderen houden. gewaren beneden 30°C. RYG 111871 UR.')
-
-module.exports = getData
+module.exports = {
+    getMedicineName,
+    getMedicineData
+}
