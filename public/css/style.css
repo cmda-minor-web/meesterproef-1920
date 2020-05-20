@@ -31,32 +31,33 @@ html {
     width: 0px;
     opacity: 0;
 }
-nav {
-    max-width: 1170px;
-    grid-template-columns: 1fr 1fr;
-    display: grid;
+  
+#start form {
+    display: flex;
+    flex-direction: column;
+    max-width: 40em;
     margin: 0 auto;
-    padding: 15px;
-    color: #fff;
-  }
-  
-  nav b a {
-    font-size: 3em;
-    margin: 0;
-    color: #fff;
-    text-decoration: none;
-    padding: 15px 0;
-  }
-  
-input[type="text"] {
+}
+
+#start form button {
+    width: 9em;
+    margin: 0 auto;
+    margin-top: 3em;
+    height: 5em;
+}
+main, section:nth-child(2) {
+    padding-top: 6em !important;
+    position: relative;
+}
+
+input[type="text"],input[type="password"] {
     width: 100%;
     padding: 10px 15px;
-    text-align: right;
+    text-align: left;
     font-size: 2em;
     border: none;
 }
-
-button::after {
+#searchbar button::after {
     content: " ";
     top: 0;
     left: 0;
@@ -69,7 +70,7 @@ button::after {
     background-repeat: no-repeat;
 }
 
-button {
+#searchbar button {
     background: #000;
     color: #fff;
     border: none;
@@ -110,6 +111,11 @@ nav li {
     text-align: center;
     margin: 0 8px;
     margin: 0 0.5em;
+}
+body nav ul:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 nav li a {
     color:#fff;
@@ -166,8 +172,26 @@ h3 {
     font-size: 1.2em;
     text-align: center;
 }
-
+footer {
+    background-color: #fff;
+    position: fixed;
+    width: 9em;
+    right: 60px;
+    bottom: 0;
+    padding: 1em;
+    text-align: center;
+    border-radius: 2em 2em 0em 0em;
+}
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
 /* ------------------- */
+
+
+
 
 /* homepage */
 body {
@@ -175,7 +199,7 @@ body {
     height: 100vh;
 }
 body nav {
-    display: none;
+    /* display: block; */
 }
 
 main, section {
@@ -195,7 +219,7 @@ body main h1 {
     justify-content: space-between;
 }
 #result-list li:hover {
-    border-color: red;
+    border-color: green;
 }
 #result-list li {
     list-style: none;
@@ -328,7 +352,7 @@ body#detail section:nth-of-type(3) #data li {
 
 
 #smiley li:hover {
-    border-color: red;
+    border-color: green;
 }
 #smiley li {
     list-style: none;

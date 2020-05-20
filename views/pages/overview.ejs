@@ -4,8 +4,9 @@
 
 <%- include ('../partials/head.ejs') %>
 
-<body id="start">
 
+<body id="overview">
+    <%- include ('../partials/nav.ejs') %>
     <main>
         <h1>Zoek een bedrijf</h1>
         <form action="/search" method="GET" id="searchbar">
@@ -17,7 +18,7 @@
         </form>
     </main>
 
-    <section id="overview">
+    <section id="result">
         <ul id="result-list">
             <li>
                 <img src="../source/pictures/store.svg" alt="store">
