@@ -6,24 +6,21 @@ async function apiFetch() {
     const json = await response.json()
     return json
 }
-async function getData(name) {
+async function getData(string) {
     const data = await apiFetch()
+    console.log(string)
     const meds = data.map(d => {
         const str = d.name
-        if (str.includes(name)) {
-            return d
+        if () {
+            console.log(d)
+            console.log(compareString)
+            // console.log(d)
+            // return d
         }
     })
-    console.log(meds)
     return meds
 }
 
-function textCompressed(medsName) {
-    let name = medsName
-    console.log(name)
-    let str = name.substr(0, 30)
-    return str
-}
 
 // textCompressed('LevonorgestrelV/Ethinylestradiol Aurobi o 3X27 filmomhulde tabletten ‘ Bevat 0.a. lactosemonohydraat. Zie bijsluiter voor verdere informatie. L ees voor het gebruik de bijsluiter. Voor oraai gebruik. guiten het zicht en bereik van kinderen houden. gewaren beneden 30°C. RYG 111871 UR.')
 
