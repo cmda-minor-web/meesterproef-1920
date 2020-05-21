@@ -233,12 +233,12 @@ body main h1 {
     background-color: #252525;
     margin-bottom: 0.7em;
     transition: 0.3s ease 0s;
+    padding: 2em;
 }
 
 #result-list li img {
     width: 13em;
-    padding: 2em;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #result-list li a {
@@ -314,7 +314,7 @@ body main h1 {
 }
 
 
-body#detail section:nth-of-type(3) #data {
+body#detail section:nth-of-type(3) #persoondata {
     color: #Fff;
     display: flex;
     flex-direction: column;
@@ -323,11 +323,34 @@ body#detail section:nth-of-type(3) #data {
     justify-content: space-between;
 }
 
-body#detail section:nth-of-type(3) #data li {
+body#detail section:nth-of-type(3) #persoondata li {
     padding: 2em;
     margin-bottom: 2em;
     background-color: #000;
 }
+
+#overview > h2, #detail section:nth-of-type(3) h3{
+    color: #fff;
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+#detail section:nth-of-type(3) #data {
+    color: #Fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#detail section:nth-of-type(3) #data li {
+    padding: 2em;
+    margin-bottom: 2em;
+    background-color: #000;
+}
+
 #review section {
     max-width: 1170px;
     margin: 0 auto;
@@ -383,7 +406,14 @@ body#detail section:nth-of-type(3) #data li {
     color: transparent;
     text-indent: -9999px;
 }
-#advies section #data {
+
+#advies section h1{
+    padding: 2em;
+    color:#fff;
+    text-align: center;
+    margin:0;
+}
+#advies section #tips {
     color: #Fff;
     display: flex;
     flex-direction: column;
@@ -391,14 +421,7 @@ body#detail section:nth-of-type(3) #data li {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-#advies section h1{
-    padding: 2em;
-    color:#fff;
-    text-align: center;
-    margin:0;
-}
-
-#advies section #data  li {
+#advies section #tips li {
     padding: 2em;
     margin-bottom: 2em;
     background-color: #000;

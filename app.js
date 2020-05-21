@@ -19,8 +19,16 @@ app.use(bodyParser.urlencoded({
 // Set Static path for non html code like pictures and CSS
 app.use(express.static(path.join(__dirname + 'public')))
 
-require('./modules/routes')(app);
+//demo 1
+require('./modules/routes/index')(app);
+require('./modules/routes/overview')(app);
+require('./modules/routes/detail')(app);
+require('./modules/routes/review')(app);
+require('./modules/routes/advies')(app);
 
+
+//demo 2
+require('./modules/routes-demo2')(app);
 
 
 

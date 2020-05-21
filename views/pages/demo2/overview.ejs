@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<%- include ('../../partials/head.ejs') %>
+
+
+<body id="overview">
+    <%- include ('../../partials/nav.ejs') %>
+    <main>
+        <h1>Zoek een bedrijf</h1>
+        <form action="/search" method="GET" id="searchbar">
+            <label for="searchfield"> searchfield </label>
+            <input type="text" id="searchfield" name="searchWord" placeholder="zoek een bedrijf" data-search-input>
+
+            <button id="submitbtn" type="submit"><img alt="search" src="../source/pictures/search.svg">
+            </button>
+        </form>
+    </main>
+
+    <section id="result">
+        <ul id="result-list">
+            <li>
+                <img src="../source/pictures/gvb.png" alt="store">
+                <a href="detail-demo2">Meer info</a></li>
+            <li>
+                <img src="../source/pictures/oba.jpg" alt="store">
+                <a href="detail-demo2">Meer info</a></li>
+            <li>
+                <img src="../source/pictures/basicfit.png" alt="store">
+                <a href="detail-demo2">Meer info</a></li>
+            <li>
+                <img src="../source/pictures/store.svg" alt="store">
+                <a href="detail-demo2">Meer info</a></li>
+          
+
+        </ul>
+    </section>
+
+
+
+    <!-- <script src="js/script.js"></script> -->
+
+
+</body>
+
+
+</html>
