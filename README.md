@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Meesterproef 2019 @cmda-minor-web · 2019-2020
 
 In de Meesterproef ga je toepassen wat je in de Minor Web Development hebt geleerd. 
@@ -85,3 +86,6 @@ Aan het eind van het project vragen we de klant feedback op het geleverde werk..
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+=======
+# Meesterproef
+>>>>>>> bc32574e8ef8feb5ef8f1a628a0b29258ac58f43
