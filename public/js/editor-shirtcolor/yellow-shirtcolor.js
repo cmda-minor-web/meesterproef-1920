@@ -1,1 +1,0 @@
-document.getElementById("Yellow-shirtcolor").checked = true;

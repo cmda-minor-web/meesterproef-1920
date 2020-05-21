@@ -1,1 +1,0 @@
-document.getElementById("Black-textcolor").checked = true;

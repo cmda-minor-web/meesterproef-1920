@@ -1,1 +1,0 @@
-document.getElementById("White-textcolor").checked = true;
