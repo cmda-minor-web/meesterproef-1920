@@ -1,0 +1,27 @@
+#detail main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: calc(100vh - 90vh);
+}
+#detail main ul li {
+    padding: 1em 2em;
+    color: #Fff;
+    position: relative;
+}
+#detail main ul li h2 {
+    color: #Fff;
+
+}
+#detail main ul li a {
+    padding: 1em;
+    background-color: #fff;
+    position: absolute;
+    margin: 1em 0;
+    border-radius: 1em;
+    color: #000;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+}
+
+/*********

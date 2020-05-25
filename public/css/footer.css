@@ -1,0 +1,17 @@
+footer {
+    background-color: #fff;
+    position: fixed;
+    width: 9em;
+    right: 60px;
+    bottom: 0;
+    padding: 1em;
+    text-align: center;
+    border-radius: 2em 2em 0em 0em;
+}
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+/* ------------------- */

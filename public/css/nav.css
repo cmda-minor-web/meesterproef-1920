@@ -1,0 +1,31 @@
+nav {
+    background-color: #202024;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #fff;
+    z-index: 9;
+    padding: 16px;
+    padding: 1em;
+    display: inline-flex;
+}
+nav img {
+    max-width: 2em;
+    height: auto;
+}
+nav li {
+    float: left;
+    text-align: center;
+    margin: 0 8px;
+    margin: 0 0.5em;
+}
+body nav ul:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav li a {
+    color:#fff;
+    text-decoration: none;
+}
