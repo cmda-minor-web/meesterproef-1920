@@ -20,17 +20,6 @@ html {
     font-family: 'Raleway', sans-serif;
     color: #000f;
 }
-#searchbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-#searchbar label {
-    height: 0px;
-    width: 0px;
-    opacity: 0;
-}
   
 #start form {
     display: flex;
@@ -56,31 +45,6 @@ input[type="text"],input[type="password"] {
     text-align: left;
     font-size: 2em;
     border: none;
-}
-#searchbar button::after {
-    content: " ";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: -1;
-    margin: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#searchbar button {
-    background: #000;
-    color: #fff;
-    border: none;
-    padding: 16px;
-    position: relative;
-    width: 5em;
-    z-index: 1;
-    cursor: pointer;
-    background-size: 400%;
-    animation:colorshift 3s linear 0s infinite;
 }
 
 body {
@@ -198,9 +162,6 @@ body {
     background-color: #202024;
     height: 100vh;
 }
-body nav {
-    /* display: block; */
-}
 
 main, section {
     max-width: 1170px;
@@ -211,17 +172,21 @@ body main h1 {
     color: #fff;
     text-align: center;
 }
-#result-list {
+#toolkits h1{
+    color:#fff;
+    text-align: center;
+}
+#toolkits-list {
     display: flex;
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#result-list li:hover {
+#toolkits-list li:hover {
     border-color: green;
 }
-#result-list li {
+#toolkits-list li {
     list-style: none;
     color: #fff;
     display: flex;
@@ -236,12 +201,13 @@ body main h1 {
     padding: 2em;
 }
 
-#result-list li img {
-    width: 13em;
+#toolkits-list li img {
+    width: 9em;
     margin: auto;
+    padding: 1em;
 }
 
-#result-list li a {
+#toolkits-list li a {
     position: absolute;
     top: 0;
     left: 0;
@@ -250,62 +216,25 @@ body main h1 {
     color: transparent;
     text-indent: -9999px;
 }
-#detail section:nth-of-type(1) h1 {
-    margin: 0;
-    padding: 0.3em;
-}
-#detail section:nth-of-type(1) img{
-    width: 7em;
 
-}
-
-
-#detail section:nth-of-type(1) {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 2em;
-    background-color: #fff;
-}
-/* ------------------- */
-#detail #diagrams  {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-} 
-
-#detail #diagrams li {
-   
-
-    list-style: none;
+#toolkits-list li h2 {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    text-align: center;
-    margin-bottom: 0.7em;
-    transition: 0.3s ease 0s;
 }
-#detail #diagrams li strong {
-    line-height: 5em;
-    font-size: 2.6em;
-}
-#detail #diagrams li h2 {
-    color:#fff;
-    width: 9.9em;
-    margin-top: 1em;
-}
-#detail #diagrams li figure {
-    width: 15em;
-    height: 15em;
-    background-color: transparent;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: 10px solid #fff;
+#profile img {
+    width: 6em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 100%;
 }
 
+#profile {
+    text-align: center;
+    color: #Fff;
+}
+
+#profile h2 {
+    color: #FFF;
+}
 #overview > h2, body#detail section:nth-of-type(3) h2 {
     color: #fff;
     padding: 2em;
@@ -314,21 +243,6 @@ body main h1 {
 }
 
 
-body#detail section:nth-of-type(3) #persoondata {
-    color: #Fff;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-body#detail section:nth-of-type(3) #persoondata li {
-    padding: 2em;
-    margin-bottom: 2em;
-    background-color: #000;
-}
-
 #overview > h2, #detail section:nth-of-type(3) h3{
     color: #fff;
     padding: 1em;
@@ -336,97 +250,6 @@ body#detail section:nth-of-type(3) #persoondata li {
     text-align: center;
 }
 
-#detail section:nth-of-type(3) #data {
-    color: #Fff;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-#detail section:nth-of-type(3) #data li {
-    padding: 2em;
-    margin-bottom: 2em;
-    background-color: #000;
-}
-
-#review section {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 1em;
-    height: 100vh;
-    padding: 20em 5em;
-    color:#fff;
-}
-
-#review section h1 {
-
-    color:#fff;
-}
-#smiley {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-
-#smiley li:hover {
-    border-color: green;
-}
-#smiley li {
-    list-style: none;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    width: 17.2em;
-    position: relative;
-    text-align: center;
-    border: 2px solid #252525;
-    background-color: #252525;
-    margin-bottom: 0.7em;
-    transition: 0.3s ease 0s;
-}
-
-#smiley li img {
-    width: 13em;
-    padding: 2em;
-    margin: 0 auto;
-}
-
-#smiley li a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: transparent;
-    text-indent: -9999px;
-}
-
-#advies section h1{
-    padding: 2em;
-    color:#fff;
-    text-align: center;
-    margin:0;
-}
-#advies section #tips {
-    color: #Fff;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-#advies section #tips li {
-    padding: 2em;
-    margin-bottom: 2em;
-    background-color: #000;
-    cursor: pointer;
-}
 /****************************/
 /*+++++MEDIA QUERIES+++++*/
 /*Bij de aangegeven max-width wordt de code uitgevoerd!*/

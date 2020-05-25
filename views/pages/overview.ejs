@@ -8,43 +8,40 @@
 <body id="overview">
     <%- include ('../partials/nav.ejs') %>
     <main>
-        <h1>Zoek een bedrijf</h1>
-        <form action="/search" method="GET" id="searchbar">
-            <label for="searchfield"> searchfield </label>
-            <input type="text" id="searchfield" name="searchWord" placeholder="zoek een bedrijf" data-search-input>
-
-            <button id="submitbtn" type="submit"><img alt="search" src="../source/pictures/search.svg">
-            </button>
-        </form>
+        <section id="profile">
+            <p><img src="../source/pictures/person.svg"" alt=""></p>
+            
+            <h2>
+                Naam
+            </h2>
+            <strong>56788</strong>
+        </section>
     </main>
 
-    <section id="result">
-        <ul id="result-list">
+    <section id="toolkits">
+        <h1>Toolbox</h1>
+        <ul id="toolkits-list">
+            <li>
+                <h2>Quiz</h2>
+                <img src="../source/pictures/quiz.svg" alt="store">
+                <strong>23456</strong>
+                <a href="detail">Meer info</a>
+            </li>
             <li>
                 <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
+                <p>23456</p>
+                <a href="detail">Meer info</a>
+            </li>
             <li>
                 <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
+                <p>23456</p>
+                <a href="detail">Meer info</a>
+            </li>
             <li>
                 <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
-            <li>
-                <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
-            <li>
-                <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
-            <li>
-                <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
-            <li>
-                <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
-            <li>
-                <img src="../source/pictures/store.svg" alt="store">
-                <a href="detail">Meer info</a></li>
-
+                <p>23456</p>
+                <a href="detail">Meer info</a>
+            </li>
         </ul>
     </section>
 
