@@ -13,7 +13,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 |---|---|---|---|---|---|
 | <a href=#meesterproef---week-0>Week 0</a> | Projecten kiezen |   |   |   |   |
 | <a href=#meesterproef---week-1>Week 1</a> | Briefing opdrachtgever | [Debriefing](Debriefing.md) |   | <del>Hemelvaart</del> | <del>Hemelvaart</del> |
-| <a href=#meesterproef---week-2>Week 2</a> | Sprint 1 + standup & checkup |   | Codereviews | Designreviews | Sprint 2 |
+| <a href=#meesterproef---week-2>Week 2</a> | Sprint 1 + standup & checkup |   | Codereviews | Designreviews | Sprint 2 + Meesterproef Q&A |
 | <a href=#meesterproef---week-3>Week 3</a> | <del>Pinksteren</del> |   | Codereviews | Designreviews | Sprint 3 |
 | <a href=#meesterproef---week-4>Week 4</a> | Standup & checkup |   | Codereviews | Designreviews | Sprint 4 |
 | <a href=#meesterproef---week-5>Week 5</a> | Standup & checkup |   |  | Final prototype  | EXPO |
@@ -66,6 +66,7 @@ Maandag en vrijdag ga je de opdrachtgever laten zien wat je hebt gemaakt.
 1. Maandag heb je een standup en checkup met je coach.
 2. Woensdag is de eerste codereviews.
 3. Donderdag is er een designreview.
+4. Vrijdag is er een Q&A over de verwachtingen, criteria, leerdoelen en beoordeling
 
 
 
@@ -74,7 +75,7 @@ Maandag en vrijdag ga je de opdrachtgever laten zien wat je hebt gemaakt.
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 3e sprint zien.
 
 
-1. Maandag is het tweede pinksterdag. Geen les.
+1. Maandag is het tweede pinksterdag. Geen les. Wanneer ga je de 3e sprint laten zien aan je klant?
 2. Woensdag is er een codereview.
 3. Donderdag is er een designreview.
 
