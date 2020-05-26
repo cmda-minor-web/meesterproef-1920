@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<%- include ('../partials/head.ejs') %>
+
+
+<body id="quiz">
+    <%- include ('../partials/nav.ejs') %>
+    <main>
+        <div id="question1">
+        <section>
+            <img src="../source/pictures/quiz/vraag1img.png" alt="">
+            <h2>De wachtwoord van je werk account is verlopen. Er wordt gevraagd om een nieuwe te maken. 
+            </h2>
+        </section>
+        <form action="#question2">
+            <label for="answer1-question1">
+                <input type="radio" id="answer1-question1" name="question1" data-score="0" value="0">
+                Ik doe hetzelfde wachtwoord die ik ook voor mijn eigen mail gebruik.</label>
+            <label for="answer2-question1">
+                <input type="radio" id="answer2-question1" name="question1" data-score="1" value="1">
+                Ik maak gebruik van een passwoord manager</label>
+            <label for="answer3-question1">
+                <input type="radio" id="answer3-question1" name="question1" data-score="0" value="2">
+                Ik maak een nieuw wachtwoord en schrijf het op in een boekje.</label>
+        </form>
+    </div>
+    <div id="question2">
+        <section>
+            <img src="../source/pictures/quiz/vraag1img.png" alt="">
+            <h2>Je opened je e-mail. en je krijgt een mail van je bank dat je account. Blijkt dat je pas is gedeactiveerd en wordt gevraagd om in te loggen met je rekeningnummer en pincode om het weer te activeren. 
+            </h2>
+        </section>
+        <form action="#question3">
+            <label for="answer1-question2">
+                <input type="radio" id="answer1-question2" name="question2" value="0" data-score="0">
+                Dit is wel belangrijk de bank stuurt dit niet zomaar.</label>
+            <label for="answer2-question2">
+                <input type="radio" id="answer2-question2" name="question2" value="1" data-score="1">
+                Misschien toch contact opnemen met mijn bank en vragen waarom mijn pas is gedeactiveerd.</label>
+        </form>
+    </div>
+    <div id="#question3">
+        <section>
+            <img src="../source/pictures/quiz/vraag3img.png" alt="">
+            <h2>Er komt een man op je af. Hij zegt dat als je enquête invulled dat je kans maakt voor een nieuwe telefoon. Je hoeft alleen maar een qr code te scannen waar je de enquête kan invullen.  
+            </h2>
+        </section>
+        <form action="#question3">
+            <label for="answer1-question3">
+                <input type="radio" id="answer1-question3" name="question3" value="0" data-score="0">
+                Leuk heb wel een nieuwe telefoon nodig kan geen kwaad.</label>
+            <label for="answer1-question3">
+                <input type="radio" id="answer2-question3" name="question3" value="1" data-score="1">
+                Nee dit kan te mooi om waar te zijn.</label>
+        </form>
+    </div>
+    
+    </main>
+
+
+
+
+    <!-- <script src="js/script.js"></script> -->
+
+
+</body>
+
+
+</html>

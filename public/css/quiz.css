@@ -1,0 +1,49 @@
+#quiz main {    padding-top: calc(100vh - 75vh);}
+
+#quiz section img {
+    width: 18em;
+}
+
+#quiz section {
+    text-align: center;
+}
+#quiz section h2 {
+    color: #fff;
+    padding:2em 1em;
+}
+
+#quiz label {
+    background-color: #fff;
+    width: 17em;
+    margin: 1em 2em;
+    min-height: 5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    color: #000;
+}
+
+#quiz input[type=radio i] {
+    height: 100%;
+    width: 100%;
+    margin: 0!important;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#quiz form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
