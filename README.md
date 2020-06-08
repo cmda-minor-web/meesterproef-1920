@@ -122,7 +122,7 @@ In de Design Rationale schrijf je de [debriefing](Debriefing.md), de probleem-de
 In de Product Biografie hou je per week bij wat je allemaal hebt gedaan.
 Je schrijft over het proces, de iteraties, de werkwijze en de planning.
 Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product Biografie.
-De product Biografie is individueel, ook als je in een team werkt. 
+De Product Biografie is individueel, ook als je in een team werkt. 
 
 
 ### Reflectie op eigen niveau
