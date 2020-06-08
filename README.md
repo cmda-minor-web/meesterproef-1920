@@ -117,20 +117,20 @@ Het eindproject wordt beoordeeld op een Design rationale, een Product biografie 
 
 ### Design rationale
 In de Design rationale schrijf je de [debriefing](Debriefing.md), de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code.
-De Design rationale is een verantwoording van je ontwerp.
+De Design rationale is een verantwoording van je ontwerp. Als je in een team werkt kun je de Design Rationale als team schrijven. (TIP: Doe dit dan in de project repo)
 
 ### Product biografie
-In de meesterproef doorloop je een iteratief proces.
-Elke week bespreek je met je opdrachtgever je vorderingen en ideeën.
-In de Product biografie hou je stap voor stap bij wat je allemaal hebt gedaan.
-Je schrijft over het proces, de werkwijze en de planning.
-Ook schetsen, testen, uitprobeersels en inspiratie zijn deel van de Product biografie.
+In de Product biografie hou je per week bij wat je allemaal hebt gedaan.
+Je schrijft over het proces, de iteraties, de werkwijze en de planning.
+Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product biografie.
+De product biografie is individueel, ook als je in een team werkt. 
+
 
 ### Reflectie op eigen niveau
-Wekelijks reflecteer je systematisch op je werk.
-In een aantal gesprekken _reviewen_ we de code en het design van je project.
-Dit doen we op basis van de rubrics van de verschillende vakken.
+Aam het eind van het project reflecteer je systematisch op je werk en het proces.
+Aan de hand van de vak rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. 
 Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
+
 
 ### Een blije klant
 Voor de klant werk je aan een bestaand product of maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX. (Jeweettoch)
