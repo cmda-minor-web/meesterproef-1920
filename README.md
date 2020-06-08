@@ -115,20 +115,19 @@ De 3 projectweken,
 Het eindproject wordt beoordeeld op een Design rationale, een Product biografie en een reflectie op het eigen niveau.
 Én of de klant blij is met het gemaakte project.
 
-### Design rationale
-In de Design rationale schrijf je de [debriefing](Debriefing.md), de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code.
-De Design rationale is een verantwoording van je ontwerp. Als je in een team werkt kun je de Design Rationale als team schrijven. (TIP: Doe dit dan in de project repo)
+### Design Rationale
+In de Design Rationale schrijf je de [debriefing](Debriefing.md), de probleem-definitie, toon je de oplossing en schrijf je een uitleg van de code. De Design Rationale is een verantwoording van je ontwerp. Als je in een team werkt kun je de Design Rationale als team schrijven. (TIP: Doe dit dan in de project repo)
 
-### Product biografie
-In de Product biografie hou je per week bij wat je allemaal hebt gedaan.
+### Product Biografie
+In de Product Biografie hou je per week bij wat je allemaal hebt gedaan.
 Je schrijft over het proces, de iteraties, de werkwijze en de planning.
-Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product biografie.
-De product biografie is individueel, ook als je in een team werkt. 
+Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product Biografie.
+De product Biografie is individueel, ook als je in een team werkt. 
 
 
 ### Reflectie op eigen niveau
 Aan het eind van het project reflecteer je systematisch op je werk en het proces.
-Aan de hand van de vak rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. 
+Aan de hand van de vak-rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. 
 Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
 
 
