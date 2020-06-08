@@ -127,7 +127,7 @@ De product biografie is individueel, ook als je in een team werkt.
 
 
 ### Reflectie op eigen niveau
-Aam het eind van het project reflecteer je systematisch op je werk en het proces.
+Aan het eind van het project reflecteer je systematisch op je werk en het proces.
 Aan de hand van de vak rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. 
 Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
 
