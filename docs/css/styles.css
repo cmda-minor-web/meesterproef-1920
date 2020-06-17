@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: var(--01CD85);
+  background-color: var(--groen);
   /* background: url("WDnDscreen.png") left top no-repeat;
   background: linear-gradient(10deg, #E9590E 0%,#E9590E 20%, #3AAA34 20%,#3AAA34 50%,#34A8E0 50%,#34A8E0 100%);
   background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%); */
@@ -39,18 +39,42 @@ body {
   /* transform: rotate(20deg);
   transform-origin:right; */
 }
+h1.expo {
+  position: fixed;
+  /* background: yellow; */
+  /* bottom: -8rem; */
+  /* left: -3rem; */
+  top: -2rem;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12em;
+  letter-spacing: -0.03em;
+  margin: 0;
+  /* margin-top: 10rem; */
+  /* margin-left: -4rem; */
+  padding: 0;
+  /* transform: translate(-2rem,-6rem); */
+  /* line-height: -30em; */
+  width: 100%;
+  overflow: hidden;
+
+  /* font-weight: 800; */
+  /* background: purple; */
+  mix-blend-mode:difference;
+}
+
 
 /*
 
 HEADER
   LOGO + TITEL
   NAV
-  EXPO
+
 
 */
 
 body > header {
-  position: relative;
+  /* position: relative; */
   /* min-height: 100vh; */
   /* background: var(--course); */
   /* background: purple; */
@@ -62,12 +86,12 @@ body > header {
   flex-wrap: wrap;
   /* justify-content: space-around; */
   /* align-items:center; */
-  padding: 3rem 0 0 0;
+  padding: 2rem 0 0 0;
   margin: 0;
   /* margin-bottom: 2rem */
 }
 body > header div{
-  z-index: 1;
+  /* z-index: 1; */
   /* margin-top: 4em; */
   width: 50%;
   display: flex;
@@ -76,7 +100,7 @@ body > header div{
   align-items: center;
   /* background: yellow; */
 }
-body > header h1 {
+body > header h2 {
   font-weight: bold;
   font-size: 1.4em;
   letter-spacing: -0.02em;
@@ -86,11 +110,12 @@ body > header h1 {
 body > header img{
   width: 11em;
 }
-body > header p {
+body > header > div > p {
   font-weight: bold;
   /* background: pink; */
   max-width: 30em;
   margin: 1em 2em;
+  /* mix-blend-mode: darken; */
 }
 header p a,
 header p a:visited {
@@ -161,27 +186,6 @@ nav a[href='#about']:focus {
   text-indent: -0.9rem;
 }
 
-body > header h2 {
-  position: absolute;
-  /* background: yellow; */
-  bottom: -8rem;
-  left: -3rem;
-  font-family: "Arial Black", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 14em;
-  letter-spacing: -0.03em;
-  margin: 0;
-  /* margin-top: 10rem; */
-  /* margin-left: -4rem; */
-  padding: 0;
-  /* transform: translate(-2rem,-6rem); */
-  /* line-height: -30em; */
-  width: 100%;
-  overflow: hidden;
-
-  /* font-weight: 800; */
-  /* background: purple; */
-}
 
 
 /*
@@ -239,66 +243,123 @@ main > header > nav a:focus{
   background: var(--groen);
   color: var(--light);
 }
-section {
-    background: var(--course);
+
+
+article {
+    /* background: var(--course); */
     margin: 6em 0;
     padding: 0;
     min-height: 90vh;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
-section p {
+article div {
   font-weight: bold;
-  /* background: pink; */
+  background: var(--groen);
   max-width: 30em;
   margin: 1em 2em;
+  padding: 2rem;
+  position: relative;
 }
-section h2{
+article h2{
+  /* background: purple; */
+  mix-blend-mode: difference;
+  position: sticky;
+  top: -2rem;
+  margin: 0;
+  /* transform: translate(-2rem, 0); */
+  /* margin-top: -5rem; */
+  /* margin-left: -0.1em; */
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 10em;
   letter-spacing: -0.03em;
-  margin: 0;
-  margin-top: -5rem;
-  /* margin-left: -0.1em; */
-  padding: 0;
-  transform: translate(-2rem, 0);
-  /* position: sticky;
-  top: 0; */
-  /* background: purple; */
+  text-indent: -2rem;
 }
-section h3{
-  font-size: 4em;
+article h3{
+  margin: 0;
+  padding: 0;
+
+  font-size: 1.8em;
   letter-spacing: -0.03em;
-  margin: 0 3rem;
-  padding: 0;
 }
-ul {
+article a,
+article a:visited {
+  color: var(--light);
+}
+article a:hover,
+article a:focus{
+  color: var(--light);
+  background: var(--geel);
+}
+
+/*
+  PROGRAMMA
+*/
+article#programma ol {
+  background: var(--groen);
+  position: relative;
+  max-width: 30em;
+  padding: 3rem;
+  margin: 3rem;
+
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  /* overflow-x: scroll; */
-  list-style-type: none;
-  padding: 0 2rem;
-  margin: 0;
-  /* background: purple; */
-}
-ul li {
-  /* background: pink; */
-  /* flex: 0 0 auto; */
-  width: 20em;
-  /* display: flex;
   flex-direction: column;
-  align-items: center; */
-  margin: 1rem;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* width: 100%; */
+  /* overflow-x: scroll; */
+
+  font-weight: bold;
 }
-ul img {
-  border: 2px solid var(--light);
+article#programma ol li {
+  /* background: pink; */
+  /* width: 20em; */
+  margin: 1rem 0 0 2rem;
+  padding: 0;
+  /* flex: 0 0 auto; */
+}
+article#programma ol li span{
+  display: block;
+  font-weight: normal;
+}
+
+
+/*
+  PROJECTEN
+*/
+article#projecten ul{
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+article#projecten ul header {
+  background: var(--blauw);
+  max-width: 30em;
+  margin: 3rem;
+  padding: 2rem;
+  position: relative;
+}
+article#projecten ul li {
+  background: var(--blauw);
+  max-width: 30em;
+  margin: 3rem;
+  padding: 2rem;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+article#projecten ul li img {
+  /* border: 2px solid var(--light); */
   /* margin-top: 2em;
   margin-bottom: 2em; */
-}
-img {
   max-width: 100%;
 }
 
@@ -313,15 +374,7 @@ img {
   max-width: 25vh;
 }
 
-section a,
-section a:visited {
-  color: var(--light);
-}
-section a:hover,
-section a:focus{
-  color: var(--light);
-  background: var(--geel);
-}
+
 
 
 /*
@@ -333,7 +386,7 @@ FOOTER
 
 */
 
-section#conduct{
+article#conduct{
   display: none;
 }
 footer {
