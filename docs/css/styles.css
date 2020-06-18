@@ -225,7 +225,9 @@ main > header > nav{
   /* margin-left: 2em; */
 }
 .selected{
+  display: inline-block;  
   background: var(--geel);
+  color: var(--dark);
   transform: rotate(-4deg);
 }
 main > header a,
