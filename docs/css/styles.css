@@ -335,6 +335,7 @@ details summary{
 footer {
   position: relative;
   max-width: 30em;
+  min-height: 100vh;
   padding: 1rem;
   margin: 0;
   font-style: italic;
