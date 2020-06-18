@@ -413,7 +413,7 @@ footer img{
     margin-right: 2rem;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 48em) {
   article h2{
     top: -1.6rem;
     font-size: 10em;
