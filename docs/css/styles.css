@@ -417,3 +417,6 @@ footer {
   margin: 3rem;
   height: 100vh;
 }
+footer img{
+  width: 10em;
+}
