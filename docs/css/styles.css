@@ -225,7 +225,7 @@ main > header > nav{
   /* margin-left: 2em; */
 }
 .selected{
-  display: inline-block;  
+  display: inline-block;
   background: var(--geel);
   color: var(--dark);
   transform: rotate(-4deg);
@@ -254,14 +254,6 @@ article {
     min-height: 90vh;
     width: 100%;
     /* overflow-x: hidden; */
-}
-article div {
-  font-weight: bold;
-  background: var(--groen);
-  max-width: 30em;
-  margin: 1em 2em;
-  padding: 2rem;
-  position: relative;
 }
 article h2{
   /* background: purple; */
@@ -294,7 +286,7 @@ article a:visited {
 }
 article a:hover,
 article a:focus{
-  color: var(--light);
+  color: var(--dark);
   background: var(--geel);
 }
 
@@ -352,28 +344,47 @@ article#projecten ul li {
   margin: 3rem;
   padding: 2rem;
   position: relative;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
 }
-article#projecten ul li img {
+article#projecten li h3 {
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+article#projecten li h3 a{
+  padding: 0.4em;
+}
+article#projecten li img {
   /* border: 2px solid var(--light); */
-  /* margin-top: 2em;
-  margin-bottom: 2em; */
+  /* margin-top: -2rem; */
   max-width: 100%;
+  z-index: 0;
+  /* float: left; */
 }
+
+
+/* article#projecten li div h3{
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  background: var(--blauw);
+  padding: 0.5em;
+} */
+/* article#projecten li div h4:first-of-type{
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+  background: var(--blauw);
+  padding: 0.3em;
+} */
+/* article#projecten li div h3 a {
+  padding: 0.5em;
+} */
+
 
 
 .button {
   background: var(--light);
   color: var(--dark);
   padding: 1em;
-}
-
-.examples img {
-  max-width: 25vh;
 }
 
 
@@ -388,11 +399,21 @@ FOOTER
 
 */
 
-article#conduct{
-  display: none;
-}
-footer {
-  background: var(--blauw);
+article#about div {
+  background: var(--groen);
   position: relative;
+  max-width: 30em;
+  padding: 3rem;
+  margin: 3rem;
+}
+
+footer {
+  /* background: var(--blauw); */
+  /* position: relative; */
   font-style: italic;
+
+  max-width: 30em;
+  padding: 3rem;
+  margin: 3rem;
+  height: 100vh;
 }
