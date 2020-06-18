@@ -41,6 +41,8 @@ if(location.hash) set_selected(); //init
 // const projecten = document.querySelector('#projecten');
 // const about = document.querySelector('#about');
 
+
+
 observer = new IntersectionObserver(entries => {
   console.log(entries[0].target.id);
   //location.hash = entries[0].target.id;

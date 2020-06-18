@@ -10,118 +10,94 @@
 * {
   box-sizing:border-box;
 }
+
 html {
-  background-color: var(--light);
   padding: 0;
   margin: 0;
+
+  background-color: var(--light);
+
   scroll-behavior: smooth;
 }
+
 body {
+  margin: 1rem;
+  padding: 0;
+
   background-color: var(--groen);
-  /* background: url("WDnDscreen.png") left top no-repeat;
-  background: linear-gradient(10deg, #E9590E 0%,#E9590E 20%, #3AAA34 20%,#3AAA34 50%,#34A8E0 50%,#34A8E0 100%);
-  background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%); */
   background: linear-gradient(12deg, var(--groen) 46%, rgba(0,0,0,0) 34%),
               linear-gradient(21deg, var(--geel) 56%, var(--blauw) 46%);
   background-size: cover;
   background-attachment: fixed;
-
   color: var(--light);
-  font-family: monospace;
+
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   line-height: 1.5;
-  margin: 1rem;
-  padding: 0;
-  /* height: 92vh;
-  overflow: scroll; */
-
-  /* transform: rotate(20deg);
-  transform-origin:right; */
 }
+
+img{
+  width: 100%;
+}
+
 h1.expo {
   position: fixed;
-  /* background: yellow; */
-  /* bottom: -8rem; */
-  /* left: -3rem; */
-  top: -2rem;
-  font-family: "Arial Black", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 12em;
-  letter-spacing: -0.03em;
+  top: 1rem;
   margin: 0;
-  /* margin-top: 10rem; */
-  /* margin-left: -4rem; */
   padding: 0;
-  /* transform: translate(-2rem,-6rem); */
-  /* line-height: -30em; */
   width: 100%;
   overflow: hidden;
 
-  /* font-weight: 800; */
-  /* background: purple; */
-  mix-blend-mode:difference;
-}
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.08em;
+  /* text-indent: -2rem; */
 
+  mix-blend-mode:difference;
+  transition: all 0.5s ease;
+}
 
 /*
-
-HEADER
-  LOGO + TITEL
-  NAV
-
-
+  HEADER
+    - logo
+    - intro tekst
+    - nav
 */
-
 body > header {
-  /* position: relative; */
-  /* min-height: 100vh; */
-  /* background: var(--course); */
-  /* background: purple; */
-  color: var(--light);
-  min-height: 100vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* justify-content: space-around; */
-  /* align-items:center; */
-  padding: 2rem 0 0 0;
+  padding: 0 0 2em 0;
   margin: 0;
-  /* margin-bottom: 2rem */
+  overflow: hidden;
+  color: var(--light);
 }
+
 body > header div{
-  /* z-index: 1; */
-  /* margin-top: 4em; */
-  width: 50%;
+  max-width: 16em;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* background: yellow; */
 }
-body > header div h2 {
-  /* background: pink; */
 
+body > header div h2 {
+  margin: 1rem 0 0 0;
+  padding: 0;
   font-weight: bold;
   font-size: 1.4em;
   letter-spacing: -0.02em;
-  margin: 0;
-  padding: 0;
 }
 body > header div img{
-  /* background: pink; */
-
-  width: 11em;
+  width: 8em;
+  transition: all 0.5s ease;
 }
 body > header p {
-  /* background: pink; */
-
+  position: relative;
+  max-width: 20em;
+  margin: 1rem;
   font-weight: bold;
-  max-width: 30em;
-  margin: 1em 2em;
-  /* mix-blend-mode: darken; */
 }
+/*
+  Links in de intro tekst
+*/
 header p a,
 header p a:visited {
   color: var(--light);
@@ -132,12 +108,23 @@ header p a:focus{
   background: var(--geel);
 }
 
+a, a:visited {
+  color: var(--light);
+}
+.selected{
+  display: inline-block;
+  background: var(--geel);
+  color: var(--dark);
+  transform: rotate(-4deg);
+}
+/*
+  nav
+*/
 body > header nav{
-  /* background: yellow; */
-  position: relative;
-  /* margin-top: 4em; */
-  width: 50%;
-  /* background: pink; */
+  display: none;
+  position: absolute;
+  top: 3rem;
+  left: 30rem;
 }
 body > header nav a{
   /* display: block; */
@@ -161,8 +148,8 @@ body > header nav a:focus {
   background: var(--course);
 }
 body > header nav a[href='#programma']{
-  top: 1em;
-  left: 2em;
+  top: 1.6rem;
+  left: 2rem;
 }
 nav a[href='#programma']:hover,
 nav a[href='#programma']:focus {
@@ -171,8 +158,8 @@ nav a[href='#programma']:focus {
   text-indent: 1rem;
 }
 body > header nav a[href='#projecten']{
-  top: 4em;
-  left: 0em;
+  top: 6.8rem;
+  left: -1rem;
 }
 nav a[href='#projecten']:hover,
 nav a[href='#projecten']:focus {
@@ -181,8 +168,8 @@ nav a[href='#projecten']:focus {
   text-indent: 0.8rem;
 }
 body > header nav a[href='#about']{
-  top: 7em;
-  left: 3em;
+  top: 12rem;
+  left: 6rem;
 }
 nav a[href='#about']:hover,
 nav a[href='#about']:focus {
@@ -194,55 +181,51 @@ nav a[href='#about']:focus {
 
 
 /*
-
 MAIN
-  PROGRAMMA
-  PROJECTEN
-  OVER DE MINOR
+  HEADER
+  ARTICLES
+    - programma
+    - projecten
+    - about
 */
 main {
   width: 100%;
   margin: 0;
-  padding: 0;
-  padding-top: 2rem;
+  padding: 2rem 0;
   background: var(--light);
 }
 main > header{
   z-index:2;
-  background: var(--light);
-  color: var(--dark);
-  /* height: 4em; */
   margin: 0;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 1rem 0;
   position: sticky;
   top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+  background: var(--light);
+  color: var(--dark);
 }
-main > header > img{
-  height: 2em;
+main > header img{
+  width: 2em;
   filter:invert();
 }
-main > header > nav{
-  /* align-self: flex-end; */
+main > header nav{
   width: 100%;
-  /* margin-left: 2em; */
-}
-.selected{
-  display: inline-block;
-  background: var(--geel);
-  color: var(--dark);
-  transform: rotate(-4deg);
+  height: 3rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 main > header a,
 main > header a:visited{
-  text-decoration: none;
   display: inline-block;
   margin: 0 0.2em;
   padding: 0.2em;
-  color: var(--dark);
   font-weight: bold;
+  text-decoration: none;
+  color: var(--dark);
   transition: all 0.2s ease;
 }
 main > header > nav a:hover,
@@ -251,39 +234,23 @@ main > header > nav a:focus{
   color: var(--light);
 }
 
-
-article {
-    /* background: var(--course); */
-    margin: 6em 0;
-    padding: 0;
-    min-height: 90vh;
-    width: 100%;
-    /* overflow-x: hidden; */
+main article {
+  margin: 0;
+  padding: 0;
 }
 article h2{
-  /* background: purple; */
-  mix-blend-mode: difference;
   position: sticky;
-  top: -2rem;
+  top: 1rem;
   margin: 0;
-  /* transform: translate(-2rem, 0); */
-  /* margin-top: -5rem; */
-  /* margin-left: -0.1em; */
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
-  font-size: 10em;
-  letter-spacing: -0.03em;
-  text-indent: -2rem;
-}
-article h3{
-  margin: 0;
-  padding: 0;
-
-  font-size: 1.8em;
-  letter-spacing: -0.03em;
+  font-size: 6em;
+  letter-spacing: -0.08em;
+  text-indent: -1rem;
+  mix-blend-mode: difference;
+  transition: all 0.5s ease;
 }
 article a,
 article a:visited {
@@ -299,136 +266,168 @@ article a:focus{
   PROGRAMMA
 */
 article#programma ol {
-  background: var(--groen);
   position: relative;
   max-width: 30em;
-  padding: 3rem;
-  margin: 3rem;
-
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
-  /* width: 100%; */
-  /* overflow-x: scroll; */
+  padding: 1rem;
+  margin: 2rem 0;
 
   font-weight: bold;
+  background: var(--groen);
 }
 article#programma ol li {
-  /* background: pink; */
-  /* width: 20em; */
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 1rem;
   padding: 0;
-  /* flex: 0 0 auto; */
 }
 article#programma ol li span{
   display: block;
   font-weight: normal;
 }
 
-
 /*
   PROJECTEN
 */
 article#projecten ul{
-    list-style-type: none;
-
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-article#projecten ul header {
-  background: var(--blauw);
-  max-width: 30em;
-  margin: 3rem;
-  padding: 2rem;
-  position: relative;
+article#projecten ul nav{
+  display: none;
 }
+article#projecten ul header,
 article#projecten ul li {
-  background: var(--blauw);
-  max-width: 30em;
-  margin: 3rem;
-  padding: 2rem;
   position: relative;
+  max-width: 30em;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: var(--blauw);
+}
+article#projecten li img {
+  max-width: 100%;
 }
 article#projecten li h3 {
-  z-index: 2;
   margin-bottom: 1rem;
 }
 article#projecten li h3 a{
   padding: 0.4em;
 }
-article#projecten li img {
-  /* border: 2px solid var(--light); */
-  /* margin-top: -2rem; */
-  max-width: 100%;
-  z-index: 0;
-  /* float: left; */
-}
-
-
-/* article#projecten li div h3{
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  background: var(--blauw);
-  padding: 0.5em;
-} */
-/* article#projecten li div h4:first-of-type{
-  position: absolute;
-  top: 8rem;
-  left: 3rem;
-  background: var(--blauw);
-  padding: 0.3em;
-} */
-/* article#projecten li div h3 a {
-  padding: 0.5em;
-} */
-
-
-
-.button {
-  background: var(--light);
-  color: var(--dark);
-  padding: 1em;
-}
-
-
-
 
 /*
-
-FOOTER
-  HvA
-  CMD
-  CONTACT EN LINKS
-
+  ABOUT
 */
-
 article#about div {
-  background: var(--groen);
   position: relative;
   max-width: 30em;
-  padding: 3rem;
-  margin: 3rem;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: var(--groen);
+}
+details{
+  margin-bottom: 1rem;
+}
+details summary{
+  font-weight: bold;
 }
 
+/*
+  FOOTER
+*/
 footer {
-  /* background: var(--blauw); */
-  /* position: relative; */
-  font-style: italic;
-
+  position: relative;
   max-width: 30em;
-  padding: 3rem;
-  margin: 3rem;
-  height: 100vh;
+  padding: 1rem;
+  margin: 0;
+  font-style: italic;
 }
 footer a {
   color: white;
 }
-/* footer p{
-  background: var(--light);
-  color: var(--dark);
-} */
 footer img{
   width: 10em;
+}
+
+/* ************************
+  responsive
+************************ */
+
+@media all and (min-width: 24em) {
+  h1.expo {
+    top: 0rem;
+    font-size: 7em;
+  }
+}
+@media all and (min-width: 28em) {
+  h1.expo {
+    top: -0.5rem;
+    font-size: 8em;
+  }
+  article h3{
+    font-size: 1.5em;
+    letter-spacing: -0.03em;
+  }
+  body > header div img{
+    width: 10em;
+  }
+}
+@media all and (min-width: 32em) {
+  h1.expo {
+    top: -0.8rem;
+    font-size: 10em;
+  }
+  body > header div img{
+    width: 11em;
+  }
+  /* tekst padding in de kaders vergroten */
+  body > header {
+    padding: 1rem;
+  }
+  article#programma ol,
+  article#projecten ul header,
+  article#projecten ul li,
+  article#about div,
+  footer {
+    padding: 2rem;
+  }
+  article#programma ol li {
+    margin-left: 2rem;
+  }
+}
+@media all and (min-width: 39em) {
+  h1.expo {
+    top: -2rem;
+    font-size: 12em;
+  }
+  article h2{
+    top: -0.2rem;
+    font-size: 8em;
+    text-indent: -1.1rem;
+  }
+  /* tekst marges vergroten */
+  article#programma ol,
+  article#projecten ul header,
+  article#projecten ul li,
+  article#about div,
+  footer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media all and (min-width: 50em) {
+  article h2{
+    top: -1.6rem;
+    font-size: 10em;
+    text-indent: -1.2rem;
+  }
+  body > header nav{
+    display: block;
+  }
+  /* tekst marges vergroten */
+  article#programma ol,
+  article#projecten ul header,
+  article#projecten ul li,
+  article#about div,
+  footer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
