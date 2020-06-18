@@ -100,19 +100,24 @@ body > header div{
   align-items: center;
   /* background: yellow; */
 }
-body > header h2 {
+body > header div h2 {
+  /* background: pink; */
+
   font-weight: bold;
   font-size: 1.4em;
   letter-spacing: -0.02em;
   margin: 0;
   padding: 0;
 }
-body > header img{
+body > header div img{
+  /* background: pink; */
+
   width: 11em;
 }
-body > header > div > p {
-  font-weight: bold;
+body > header p {
   /* background: pink; */
+
+  font-weight: bold;
   max-width: 30em;
   margin: 1em 2em;
   /* mix-blend-mode: darken; */
@@ -417,6 +422,13 @@ footer {
   margin: 3rem;
   height: 100vh;
 }
+footer a {
+  color: white;
+}
+/* footer p{
+  background: var(--light);
+  color: var(--dark);
+} */
 footer img{
   width: 10em;
 }
