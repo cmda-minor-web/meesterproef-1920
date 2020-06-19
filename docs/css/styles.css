@@ -118,7 +118,7 @@ a, a:visited {
   transform: rotate(-4deg);
 }
 /*
-  nav
+  nav en buttons
 */
 body > header nav{
   display: none;
@@ -274,6 +274,27 @@ article#programma ol {
   font-weight: bold;
   background: var(--groen);
 }
+article#programma ol header {
+  margin: 2rem 0;
+}
+article#programma ol header  a,
+article#programma ol header  a:visited{
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  margin: 0 auto;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--dark);
+  background: var(--light);
+  transition: all 0.2s ease;
+}
+article#programma ol header  a:hover,
+article#programma ol header  a:focus {
+  /* color: var(--light); */
+  background: var(--geel);
+}
+
 article#programma ol li {
   margin: 1rem 0 0 1rem;
   padding: 0;
@@ -348,7 +369,7 @@ footer img{
   margin-top: 3rem;
 }
 footer p{
-  
+
 }
 
 /* ************************
@@ -425,6 +446,9 @@ footer p{
   }
   body > header nav{
     display: block;
+  }
+  body > header {
+    min-height: 96vh;
   }
   /* tekst marges vergroten */
   article#programma ol,
