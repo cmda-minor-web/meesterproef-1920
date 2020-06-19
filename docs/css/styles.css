@@ -118,7 +118,7 @@ a, a:visited {
   transform: rotate(-4deg);
 }
 /*
-  nav en buttons
+  nav en buttons (ook de button in de footer)
 */
 body > header nav{
   display: none;
@@ -134,7 +134,6 @@ body > header nav a{
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
-
   transition: all 0.2s ease;
 }
 body > header nav a,
@@ -177,7 +176,32 @@ nav a[href='#about']:focus {
   padding-right: 2rem;
   text-indent: -0.9rem;
 }
+footer a[href='#home']{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.4em 0.6em;
+  margin: 0.2em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
 
+  transition: all 0.2s ease;
+}
+footer a[href='#home'],
+footer a[href='#home']:visited{
+  color: var(--dark);
+  background: var(--light);
+}
+
+footer a[href='#home']:hover,
+footer a[href='#home']:focus {
+  transform: rotate(8deg);
+  padding-right: 0rem;
+  text-indent: 1rem;
+  color: var(--light);
+  background: var(--blauw);
+}
 
 
 /*
