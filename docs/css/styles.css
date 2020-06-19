@@ -177,11 +177,12 @@ nav a[href='#about']:focus {
   text-indent: -0.9rem;
 }
 footer a[href='#home']{
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
+  display: inline-block;
+  position: relative;
+  /* bottom: 2rem; */
+  /* right: 2rem; */
   padding: 0.4em 0.6em;
-  margin: 0.2em;
+  margin: 2rem auto;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
