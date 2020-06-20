@@ -302,7 +302,10 @@ article#programma ol {
 article#programma ol header {
   margin: 2rem 0;
 }
-article#programma ol header a,
+article#programma ol header a {
+  display: none;
+}
+/* article#programma ol header a,
 article#programma ol header a:visited{
   display: inline-block;
   padding: 0.4em 0.6em;
@@ -316,10 +319,9 @@ article#programma ol header a:visited{
 }
 article#programma ol header a:hover,
 article#programma ol header a:focus {
-  /* color: var(--light); */
   background: var(--geel);
   transform: rotate(3deg);
-}
+} */
 
 article#programma ol li {
   margin: 1rem 0 0 1rem;
