@@ -1,6 +1,16 @@
 
 
 /*
+  *** FILTEREN EN SORTEREN VAN DE PROJECTEN ***
+  Filteren van de projecten: https://listjs.com/docs/
+
+*/
+
+
+
+
+
+/*
   *** HASH ***
   In het menu staan 3 knoppen,
   die verwijzen met een hash naar bijhorende artikelen.
@@ -42,8 +52,20 @@ if(location.hash) set_selected(); //init
 // const about = document.querySelector('#about');
 
 observer = new IntersectionObserver(entries => {
-  console.log(entries[0].target.id);
+  // console.log(entries[0].target.id);
+  // console.log(entries[0].intersectionRatio);
   //location.hash = entries[0].target.id;
+  if (entries[0].intersectionRatio < 0.01) {
+    console.log(entries[0],'in the view');
+  } else {
+    console.log('else');
+  }
+  // if (entries[0].isIntersecting) {
+  //   console.log(entries[0],'isIntersecting');
+  // } else {
+  //   console.log(entries[0],'else');
+  // }
+
 });
 
 // const articles = document.querySelectorAll('main > article');
@@ -51,5 +73,5 @@ observer = new IntersectionObserver(entries => {
 //   observer.observe(article);
 // });
 
-const projecten = document.querySelector('#about');
+const projecten = document.querySelector('#projecten');
 observer.observe(projecten);
